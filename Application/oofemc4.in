@@ -1,0 +1,904 @@
+oofem.out
+Direct tension. 3D Model
+NonlinearStatic nmsteps 2 nsteps 1 nmodules 1  profileopt 1
+nsteps 1 stiffmode 0 rtolv 1.e-3 maxiter 500 initialguess 0 controlmode 1 refloadmode 0  
+nsteps 40000 stiffmode 0 rtolv 1.e-3 maxiter 2000 initialguess 0 controlmode 0 psi 0. steplength 1.e-1 minsteplength 1.e-1 hpcmode 2 hpc 2 21 1 hpcw 1 1.  
+vtkxml tstep_step 20  primvars 1 1 cellvars 8 138 139 140 47 46 45 141 52 domain_all element_all
+domain 3dLattice
+OutputManager tstep_step 20 dofman_all element_all
+ndofman 423 nelem 438 ncrosssect 2 nmat 2 nbc 8 nic 0 nltf 3 nset 7
+node 1 coords 3 0.000000e+00 0.000000e+00 0.000000e+00 bc 6 1 1 1 1 1 1
+node 2 coords 3 5.000000e+03 0.000000e+00 0.000000e+00 bc 6 1 1 1 1 1 1
+node 3 coords 3 1.000000e+04 0.000000e+00 0.000000e+00 bc 6 1 1 1 1 1 1
+node 4 coords 3 0.000000e+00 0.000000e+00 4.500000e+03 bc 6 1 1 1 1 1 1
+node 5 coords 3 1.000000e+04 0.000000e+00 4.500000e+03 bc 6 1 1 1 1 1 1
+node 6 coords 3 0.000000e+00 0.000000e+00 9.000000e+03 bc 6 1 1 1 1 1 1
+node 7 coords 3 5.000000e+03 0.000000e+00 9.000000e+03 bc 6 1 1 1 1 1 1
+node 8 coords 3 1.000000e+04 0.000000e+00 9.000000e+03 bc 6 1 1 1 1 1 1
+node 9 coords 3 0.000000e+00 3.600000e+03 0.000000e+00
+node 10 coords 3 5.000000e+03 3.600000e+03 0.000000e+00
+node 11 coords 3 1.000000e+04 3.600000e+03 0.000000e+00
+node 12 coords 3 0.000000e+00 3.600000e+03 4.500000e+03
+node 13 coords 3 5.000000e+03 3.600000e+03 4.500000e+03
+node 14 coords 3 1.000000e+04 3.600000e+03 4.500000e+03
+node 15 coords 3 0.000000e+00 3.600000e+03 9.000000e+03
+node 16 coords 3 5.000000e+03 3.600000e+03 9.000000e+03
+node 17 coords 3 1.000000e+04 3.600000e+03 9.000000e+03
+node 18 coords 3 0.000000e+00 7.200000e+03 0.000000e+00
+node 19 coords 3 5.000000e+03 7.200000e+03 0.000000e+00
+node 20 coords 3 1.000000e+04 7.200000e+03 0.000000e+00
+node 21 coords 3 0.000000e+00 7.200000e+03 4.500000e+03
+node 22 coords 3 5.000000e+03 7.200000e+03 4.500000e+03
+node 23 coords 3 1.000000e+04 7.200000e+03 4.500000e+03
+node 24 coords 3 0.000000e+00 7.200000e+03 9.000000e+03
+node 25 coords 3 5.000000e+03 7.200000e+03 9.000000e+03
+node 26 coords 3 1.000000e+04 7.200000e+03 9.000000e+03
+node 27 coords 3 5.000000e+03 0.000000e+00 4.500000e+03  bc 6 1 1 1 1 1 1
+node 28 coords 3 0.000000e+00 4.000000e+02 0.000000e+00
+node 29 coords 3 0.000000e+00 8.000000e+02 0.000000e+00
+node 30 coords 3 0.000000e+00 1.200000e+03 0.000000e+00
+node 31 coords 3 0.000000e+00 1.600000e+03 0.000000e+00
+node 32 coords 3 0.000000e+00 2.000000e+03 0.000000e+00
+node 33 coords 3 0.000000e+00 2.400000e+03 0.000000e+00
+node 34 coords 3 0.000000e+00 2.800000e+03 0.000000e+00
+node 35 coords 3 0.000000e+00 3.200000e+03 0.000000e+00
+node 36 coords 3 5.000000e+03 4.000000e+02 0.000000e+00
+node 37 coords 3 5.000000e+03 8.000000e+02 0.000000e+00
+node 38 coords 3 5.000000e+03 1.200000e+03 0.000000e+00
+node 39 coords 3 5.000000e+03 1.600000e+03 0.000000e+00
+node 40 coords 3 5.000000e+03 2.000000e+03 0.000000e+00
+node 41 coords 3 5.000000e+03 2.400000e+03 0.000000e+00
+node 42 coords 3 5.000000e+03 2.800000e+03 0.000000e+00
+node 43 coords 3 5.000000e+03 3.200000e+03 0.000000e+00
+node 44 coords 3 1.000000e+04 4.000000e+02 0.000000e+00
+node 45 coords 3 1.000000e+04 8.000000e+02 0.000000e+00
+node 46 coords 3 1.000000e+04 1.200000e+03 0.000000e+00
+node 47 coords 3 1.000000e+04 1.600000e+03 0.000000e+00
+node 48 coords 3 1.000000e+04 2.000000e+03 0.000000e+00
+node 49 coords 3 1.000000e+04 2.400000e+03 0.000000e+00
+node 50 coords 3 1.000000e+04 2.800000e+03 0.000000e+00
+node 51 coords 3 1.000000e+04 3.200000e+03 0.000000e+00
+node 52 coords 3 0.000000e+00 4.000000e+02 4.500000e+03
+node 53 coords 3 0.000000e+00 8.000000e+02 4.500000e+03
+node 54 coords 3 0.000000e+00 1.200000e+03 4.500000e+03
+node 55 coords 3 0.000000e+00 1.600000e+03 4.500000e+03
+node 56 coords 3 0.000000e+00 2.000000e+03 4.500000e+03
+node 57 coords 3 0.000000e+00 2.400000e+03 4.500000e+03
+node 58 coords 3 0.000000e+00 2.800000e+03 4.500000e+03
+node 59 coords 3 0.000000e+00 3.200000e+03 4.500000e+03
+node 60 coords 3 1.000000e+04 4.000000e+02 4.500000e+03
+node 61 coords 3 1.000000e+04 8.000000e+02 4.500000e+03
+node 62 coords 3 1.000000e+04 1.200000e+03 4.500000e+03
+node 63 coords 3 1.000000e+04 1.600000e+03 4.500000e+03
+node 64 coords 3 1.000000e+04 2.000000e+03 4.500000e+03
+node 65 coords 3 1.000000e+04 2.400000e+03 4.500000e+03
+node 66 coords 3 1.000000e+04 2.800000e+03 4.500000e+03
+node 67 coords 3 1.000000e+04 3.200000e+03 4.500000e+03
+node 68 coords 3 0.000000e+00 4.000000e+02 9.000000e+03
+node 69 coords 3 0.000000e+00 8.000000e+02 9.000000e+03
+node 70 coords 3 0.000000e+00 1.200000e+03 9.000000e+03
+node 71 coords 3 0.000000e+00 1.600000e+03 9.000000e+03
+node 72 coords 3 0.000000e+00 2.000000e+03 9.000000e+03
+node 73 coords 3 0.000000e+00 2.400000e+03 9.000000e+03
+node 74 coords 3 0.000000e+00 2.800000e+03 9.000000e+03
+node 75 coords 3 0.000000e+00 3.200000e+03 9.000000e+03
+node 76 coords 3 5.000000e+03 4.000000e+02 9.000000e+03
+node 77 coords 3 5.000000e+03 8.000000e+02 9.000000e+03
+node 78 coords 3 5.000000e+03 1.200000e+03 9.000000e+03
+node 79 coords 3 5.000000e+03 1.600000e+03 9.000000e+03
+node 80 coords 3 5.000000e+03 2.000000e+03 9.000000e+03
+node 81 coords 3 5.000000e+03 2.400000e+03 9.000000e+03
+node 82 coords 3 5.000000e+03 2.800000e+03 9.000000e+03
+node 83 coords 3 5.000000e+03 3.200000e+03 9.000000e+03
+node 84 coords 3 1.000000e+04 4.000000e+02 9.000000e+03
+node 85 coords 3 1.000000e+04 8.000000e+02 9.000000e+03
+node 86 coords 3 1.000000e+04 1.200000e+03 9.000000e+03
+node 87 coords 3 1.000000e+04 1.600000e+03 9.000000e+03
+node 88 coords 3 1.000000e+04 2.000000e+03 9.000000e+03
+node 89 coords 3 1.000000e+04 2.400000e+03 9.000000e+03
+node 90 coords 3 1.000000e+04 2.800000e+03 9.000000e+03
+node 91 coords 3 1.000000e+04 3.200000e+03 9.000000e+03
+node 92 coords 3 0.000000e+00 4.000000e+03 0.000000e+00
+node 93 coords 3 0.000000e+00 4.400000e+03 0.000000e+00
+node 94 coords 3 0.000000e+00 4.800000e+03 0.000000e+00
+node 95 coords 3 0.000000e+00 5.200000e+03 0.000000e+00
+node 96 coords 3 0.000000e+00 5.600000e+03 0.000000e+00
+node 97 coords 3 0.000000e+00 6.000000e+03 0.000000e+00
+node 98 coords 3 0.000000e+00 6.400000e+03 0.000000e+00
+node 99 coords 3 0.000000e+00 6.800000e+03 0.000000e+00
+node 100 coords 3 5.000000e+03 4.000000e+03 0.000000e+00
+node 101 coords 3 5.000000e+03 4.400000e+03 0.000000e+00
+node 102 coords 3 5.000000e+03 4.800000e+03 0.000000e+00
+node 103 coords 3 5.000000e+03 5.200000e+03 0.000000e+00
+node 104 coords 3 5.000000e+03 5.600000e+03 0.000000e+00
+node 105 coords 3 5.000000e+03 6.000000e+03 0.000000e+00
+node 106 coords 3 5.000000e+03 6.400000e+03 0.000000e+00
+node 107 coords 3 5.000000e+03 6.800000e+03 0.000000e+00
+node 108 coords 3 1.000000e+04 4.000000e+03 0.000000e+00
+node 109 coords 3 1.000000e+04 4.400000e+03 0.000000e+00
+node 110 coords 3 1.000000e+04 4.800000e+03 0.000000e+00
+node 111 coords 3 1.000000e+04 5.200000e+03 0.000000e+00
+node 112 coords 3 1.000000e+04 5.600000e+03 0.000000e+00
+node 113 coords 3 1.000000e+04 6.000000e+03 0.000000e+00
+node 114 coords 3 1.000000e+04 6.400000e+03 0.000000e+00
+node 115 coords 3 1.000000e+04 6.800000e+03 0.000000e+00
+node 116 coords 3 0.000000e+00 4.000000e+03 4.500000e+03
+node 117 coords 3 0.000000e+00 4.400000e+03 4.500000e+03
+node 118 coords 3 0.000000e+00 4.800000e+03 4.500000e+03
+node 119 coords 3 0.000000e+00 5.200000e+03 4.500000e+03
+node 120 coords 3 0.000000e+00 5.600000e+03 4.500000e+03
+node 121 coords 3 0.000000e+00 6.000000e+03 4.500000e+03
+node 122 coords 3 0.000000e+00 6.400000e+03 4.500000e+03
+node 123 coords 3 0.000000e+00 6.800000e+03 4.500000e+03
+node 124 coords 3 5.000000e+03 4.000000e+03 4.500000e+03
+node 125 coords 3 5.000000e+03 4.400000e+03 4.500000e+03
+node 126 coords 3 5.000000e+03 4.800000e+03 4.500000e+03
+node 127 coords 3 5.000000e+03 5.200000e+03 4.500000e+03
+node 128 coords 3 5.000000e+03 5.600000e+03 4.500000e+03
+node 129 coords 3 5.000000e+03 6.000000e+03 4.500000e+03
+node 130 coords 3 5.000000e+03 6.400000e+03 4.500000e+03
+node 131 coords 3 5.000000e+03 6.800000e+03 4.500000e+03
+node 132 coords 3 1.000000e+04 4.000000e+03 4.500000e+03
+node 133 coords 3 1.000000e+04 4.400000e+03 4.500000e+03
+node 134 coords 3 1.000000e+04 4.800000e+03 4.500000e+03
+node 135 coords 3 1.000000e+04 5.200000e+03 4.500000e+03
+node 136 coords 3 1.000000e+04 5.600000e+03 4.500000e+03
+node 137 coords 3 1.000000e+04 6.000000e+03 4.500000e+03
+node 138 coords 3 1.000000e+04 6.400000e+03 4.500000e+03
+node 139 coords 3 1.000000e+04 6.800000e+03 4.500000e+03
+node 140 coords 3 0.000000e+00 4.000000e+03 9.000000e+03
+node 141 coords 3 0.000000e+00 4.400000e+03 9.000000e+03
+node 142 coords 3 0.000000e+00 4.800000e+03 9.000000e+03
+node 143 coords 3 0.000000e+00 5.200000e+03 9.000000e+03
+node 144 coords 3 0.000000e+00 5.600000e+03 9.000000e+03
+node 145 coords 3 0.000000e+00 6.000000e+03 9.000000e+03
+node 146 coords 3 0.000000e+00 6.400000e+03 9.000000e+03
+node 147 coords 3 0.000000e+00 6.800000e+03 9.000000e+03
+node 148 coords 3 5.000000e+03 4.000000e+03 9.000000e+03
+node 149 coords 3 5.000000e+03 4.400000e+03 9.000000e+03
+node 150 coords 3 5.000000e+03 4.800000e+03 9.000000e+03
+node 151 coords 3 5.000000e+03 5.200000e+03 9.000000e+03
+node 152 coords 3 5.000000e+03 5.600000e+03 9.000000e+03
+node 153 coords 3 5.000000e+03 6.000000e+03 9.000000e+03
+node 154 coords 3 5.000000e+03 6.400000e+03 9.000000e+03
+node 155 coords 3 5.000000e+03 6.800000e+03 9.000000e+03
+node 156 coords 3 1.000000e+04 4.000000e+03 9.000000e+03
+node 157 coords 3 1.000000e+04 4.400000e+03 9.000000e+03
+node 158 coords 3 1.000000e+04 4.800000e+03 9.000000e+03
+node 159 coords 3 1.000000e+04 5.200000e+03 9.000000e+03
+node 160 coords 3 1.000000e+04 5.600000e+03 9.000000e+03
+node 161 coords 3 1.000000e+04 6.000000e+03 9.000000e+03
+node 162 coords 3 1.000000e+04 6.400000e+03 9.000000e+03
+node 163 coords 3 1.000000e+04 6.800000e+03 9.000000e+03
+node 164 coords 3 4.166667e+02 3.600000e+03 0.000000e+00
+node 165 coords 3 8.333333e+02 3.600000e+03 0.000000e+00
+node 166 coords 3 1.250000e+03 3.600000e+03 0.000000e+00
+node 167 coords 3 1.666667e+03 3.600000e+03 0.000000e+00
+node 168 coords 3 2.083333e+03 3.600000e+03 0.000000e+00
+node 169 coords 3 2.500000e+03 3.600000e+03 0.000000e+00
+node 170 coords 3 2.916667e+03 3.600000e+03 0.000000e+00
+node 171 coords 3 3.333333e+03 3.600000e+03 0.000000e+00
+node 172 coords 3 3.750000e+03 3.600000e+03 0.000000e+00
+node 173 coords 3 4.166667e+03 3.600000e+03 0.000000e+00
+node 174 coords 3 4.583333e+03 3.600000e+03 0.000000e+00
+node 175 coords 3 5.416667e+03 3.600000e+03 0.000000e+00
+node 176 coords 3 5.833333e+03 3.600000e+03 0.000000e+00
+node 177 coords 3 6.250000e+03 3.600000e+03 0.000000e+00
+node 178 coords 3 6.666667e+03 3.600000e+03 0.000000e+00
+node 179 coords 3 7.083333e+03 3.600000e+03 0.000000e+00
+node 180 coords 3 7.500000e+03 3.600000e+03 0.000000e+00
+node 181 coords 3 7.916667e+03 3.600000e+03 0.000000e+00
+node 182 coords 3 8.333333e+03 3.600000e+03 0.000000e+00
+node 183 coords 3 8.750000e+03 3.600000e+03 0.000000e+00
+node 184 coords 3 9.166667e+03 3.600000e+03 0.000000e+00
+node 185 coords 3 9.583333e+03 3.600000e+03 0.000000e+00
+node 186 coords 3 4.166667e+02 3.600000e+03 4.500000e+03
+node 187 coords 3 8.333333e+02 3.600000e+03 4.500000e+03
+node 188 coords 3 1.250000e+03 3.600000e+03 4.500000e+03
+node 189 coords 3 1.666667e+03 3.600000e+03 4.500000e+03
+node 190 coords 3 2.083333e+03 3.600000e+03 4.500000e+03
+node 191 coords 3 2.500000e+03 3.600000e+03 4.500000e+03
+node 192 coords 3 2.916667e+03 3.600000e+03 4.500000e+03
+node 193 coords 3 3.333333e+03 3.600000e+03 4.500000e+03
+node 194 coords 3 3.750000e+03 3.600000e+03 4.500000e+03
+node 195 coords 3 4.166667e+03 3.600000e+03 4.500000e+03
+node 196 coords 3 4.583333e+03 3.600000e+03 4.500000e+03
+node 197 coords 3 5.416667e+03 3.600000e+03 4.500000e+03
+node 198 coords 3 5.833333e+03 3.600000e+03 4.500000e+03
+node 199 coords 3 6.250000e+03 3.600000e+03 4.500000e+03
+node 200 coords 3 6.666667e+03 3.600000e+03 4.500000e+03
+node 201 coords 3 7.083333e+03 3.600000e+03 4.500000e+03
+node 202 coords 3 7.500000e+03 3.600000e+03 4.500000e+03
+node 203 coords 3 7.916667e+03 3.600000e+03 4.500000e+03
+node 204 coords 3 8.333333e+03 3.600000e+03 4.500000e+03
+node 205 coords 3 8.750000e+03 3.600000e+03 4.500000e+03
+node 206 coords 3 9.166667e+03 3.600000e+03 4.500000e+03
+node 207 coords 3 9.583333e+03 3.600000e+03 4.500000e+03
+node 208 coords 3 4.166667e+02 3.600000e+03 9.000000e+03
+node 209 coords 3 8.333333e+02 3.600000e+03 9.000000e+03
+node 210 coords 3 1.250000e+03 3.600000e+03 9.000000e+03
+node 211 coords 3 1.666667e+03 3.600000e+03 9.000000e+03
+node 212 coords 3 2.083333e+03 3.600000e+03 9.000000e+03
+node 213 coords 3 2.500000e+03 3.600000e+03 9.000000e+03
+node 214 coords 3 2.916667e+03 3.600000e+03 9.000000e+03
+node 215 coords 3 3.333333e+03 3.600000e+03 9.000000e+03
+node 216 coords 3 3.750000e+03 3.600000e+03 9.000000e+03
+node 217 coords 3 4.166667e+03 3.600000e+03 9.000000e+03
+node 218 coords 3 4.583333e+03 3.600000e+03 9.000000e+03
+node 219 coords 3 5.416667e+03 3.600000e+03 9.000000e+03
+node 220 coords 3 5.833333e+03 3.600000e+03 9.000000e+03
+node 221 coords 3 6.250000e+03 3.600000e+03 9.000000e+03
+node 222 coords 3 6.666667e+03 3.600000e+03 9.000000e+03
+node 223 coords 3 7.083333e+03 3.600000e+03 9.000000e+03
+node 224 coords 3 7.500000e+03 3.600000e+03 9.000000e+03
+node 225 coords 3 7.916667e+03 3.600000e+03 9.000000e+03
+node 226 coords 3 8.333333e+03 3.600000e+03 9.000000e+03
+node 227 coords 3 8.750000e+03 3.600000e+03 9.000000e+03
+node 228 coords 3 9.166667e+03 3.600000e+03 9.000000e+03
+node 229 coords 3 9.583333e+03 3.600000e+03 9.000000e+03
+node 230 coords 3 4.166667e+02 7.200000e+03 0.000000e+00
+node 231 coords 3 8.333333e+02 7.200000e+03 0.000000e+00
+node 232 coords 3 1.250000e+03 7.200000e+03 0.000000e+00
+node 233 coords 3 1.666667e+03 7.200000e+03 0.000000e+00
+node 234 coords 3 2.083333e+03 7.200000e+03 0.000000e+00
+node 235 coords 3 2.500000e+03 7.200000e+03 0.000000e+00
+node 236 coords 3 2.916667e+03 7.200000e+03 0.000000e+00
+node 237 coords 3 3.333333e+03 7.200000e+03 0.000000e+00
+node 238 coords 3 3.750000e+03 7.200000e+03 0.000000e+00
+node 239 coords 3 4.166667e+03 7.200000e+03 0.000000e+00
+node 240 coords 3 4.583333e+03 7.200000e+03 0.000000e+00
+node 241 coords 3 5.416667e+03 7.200000e+03 0.000000e+00
+node 242 coords 3 5.833333e+03 7.200000e+03 0.000000e+00
+node 243 coords 3 6.250000e+03 7.200000e+03 0.000000e+00
+node 244 coords 3 6.666667e+03 7.200000e+03 0.000000e+00
+node 245 coords 3 7.083333e+03 7.200000e+03 0.000000e+00
+node 246 coords 3 7.500000e+03 7.200000e+03 0.000000e+00
+node 247 coords 3 7.916667e+03 7.200000e+03 0.000000e+00
+node 248 coords 3 8.333333e+03 7.200000e+03 0.000000e+00
+node 249 coords 3 8.750000e+03 7.200000e+03 0.000000e+00
+node 250 coords 3 9.166667e+03 7.200000e+03 0.000000e+00
+node 251 coords 3 9.583333e+03 7.200000e+03 0.000000e+00
+node 252 coords 3 4.166667e+02 7.200000e+03 4.500000e+03
+node 253 coords 3 8.333333e+02 7.200000e+03 4.500000e+03
+node 254 coords 3 1.250000e+03 7.200000e+03 4.500000e+03
+node 255 coords 3 1.666667e+03 7.200000e+03 4.500000e+03
+node 256 coords 3 2.083333e+03 7.200000e+03 4.500000e+03
+node 257 coords 3 2.500000e+03 7.200000e+03 4.500000e+03
+node 258 coords 3 2.916667e+03 7.200000e+03 4.500000e+03
+node 259 coords 3 3.333333e+03 7.200000e+03 4.500000e+03
+node 260 coords 3 3.750000e+03 7.200000e+03 4.500000e+03
+node 261 coords 3 4.166667e+03 7.200000e+03 4.500000e+03
+node 262 coords 3 4.583333e+03 7.200000e+03 4.500000e+03
+node 263 coords 3 5.416667e+03 7.200000e+03 4.500000e+03
+node 264 coords 3 5.833333e+03 7.200000e+03 4.500000e+03
+node 265 coords 3 6.250000e+03 7.200000e+03 4.500000e+03
+node 266 coords 3 6.666667e+03 7.200000e+03 4.500000e+03
+node 267 coords 3 7.083333e+03 7.200000e+03 4.500000e+03
+node 268 coords 3 7.500000e+03 7.200000e+03 4.500000e+03
+node 269 coords 3 7.916667e+03 7.200000e+03 4.500000e+03
+node 270 coords 3 8.333333e+03 7.200000e+03 4.500000e+03
+node 271 coords 3 8.750000e+03 7.200000e+03 4.500000e+03
+node 272 coords 3 9.166667e+03 7.200000e+03 4.500000e+03
+node 273 coords 3 9.583333e+03 7.200000e+03 4.500000e+03
+node 274 coords 3 4.166667e+02 7.200000e+03 9.000000e+03
+node 275 coords 3 8.333333e+02 7.200000e+03 9.000000e+03
+node 276 coords 3 1.250000e+03 7.200000e+03 9.000000e+03
+node 277 coords 3 1.666667e+03 7.200000e+03 9.000000e+03
+node 278 coords 3 2.083333e+03 7.200000e+03 9.000000e+03
+node 279 coords 3 2.500000e+03 7.200000e+03 9.000000e+03
+node 280 coords 3 2.916667e+03 7.200000e+03 9.000000e+03
+node 281 coords 3 3.333333e+03 7.200000e+03 9.000000e+03
+node 282 coords 3 3.750000e+03 7.200000e+03 9.000000e+03
+node 283 coords 3 4.166667e+03 7.200000e+03 9.000000e+03
+node 284 coords 3 4.583333e+03 7.200000e+03 9.000000e+03
+node 285 coords 3 5.416667e+03 7.200000e+03 9.000000e+03
+node 286 coords 3 5.833333e+03 7.200000e+03 9.000000e+03
+node 287 coords 3 6.250000e+03 7.200000e+03 9.000000e+03
+node 288 coords 3 6.666667e+03 7.200000e+03 9.000000e+03
+node 289 coords 3 7.083333e+03 7.200000e+03 9.000000e+03
+node 290 coords 3 7.500000e+03 7.200000e+03 9.000000e+03
+node 291 coords 3 7.916667e+03 7.200000e+03 9.000000e+03
+node 292 coords 3 8.333333e+03 7.200000e+03 9.000000e+03
+node 293 coords 3 8.750000e+03 7.200000e+03 9.000000e+03
+node 294 coords 3 9.166667e+03 7.200000e+03 9.000000e+03
+node 295 coords 3 9.583333e+03 7.200000e+03 9.000000e+03
+node 296 coords 3 0.000000e+00 3.600000e+03 4.090909e+02
+node 297 coords 3 0.000000e+00 3.600000e+03 8.181818e+02
+node 298 coords 3 0.000000e+00 3.600000e+03 1.227273e+03
+node 299 coords 3 0.000000e+00 3.600000e+03 1.636364e+03
+node 300 coords 3 0.000000e+00 3.600000e+03 2.045455e+03
+node 301 coords 3 0.000000e+00 3.600000e+03 2.454546e+03
+node 302 coords 3 0.000000e+00 3.600000e+03 2.863636e+03
+node 303 coords 3 0.000000e+00 3.600000e+03 3.272727e+03
+node 304 coords 3 0.000000e+00 3.600000e+03 3.681818e+03
+node 305 coords 3 0.000000e+00 3.600000e+03 4.090909e+03
+node 306 coords 3 0.000000e+00 3.600000e+03 4.909091e+03
+node 307 coords 3 0.000000e+00 3.600000e+03 5.318182e+03
+node 308 coords 3 0.000000e+00 3.600000e+03 5.727273e+03
+node 309 coords 3 0.000000e+00 3.600000e+03 6.136364e+03
+node 310 coords 3 0.000000e+00 3.600000e+03 6.545454e+03
+node 311 coords 3 0.000000e+00 3.600000e+03 6.954546e+03
+node 312 coords 3 0.000000e+00 3.600000e+03 7.363636e+03
+node 313 coords 3 0.000000e+00 3.600000e+03 7.772727e+03
+node 314 coords 3 0.000000e+00 3.600000e+03 8.181818e+03
+node 315 coords 3 0.000000e+00 3.600000e+03 8.590909e+03
+node 316 coords 3 5.000000e+03 3.600000e+03 4.090909e+02
+node 317 coords 3 5.000000e+03 3.600000e+03 8.181818e+02
+node 318 coords 3 5.000000e+03 3.600000e+03 1.227273e+03
+node 319 coords 3 5.000000e+03 3.600000e+03 1.636364e+03
+node 320 coords 3 5.000000e+03 3.600000e+03 2.045455e+03
+node 321 coords 3 5.000000e+03 3.600000e+03 2.454546e+03
+node 322 coords 3 5.000000e+03 3.600000e+03 2.863636e+03
+node 323 coords 3 5.000000e+03 3.600000e+03 3.272727e+03
+node 324 coords 3 5.000000e+03 3.600000e+03 3.681818e+03
+node 325 coords 3 5.000000e+03 3.600000e+03 4.090909e+03
+node 326 coords 3 5.000000e+03 3.600000e+03 4.909091e+03
+node 327 coords 3 5.000000e+03 3.600000e+03 5.318182e+03
+node 328 coords 3 5.000000e+03 3.600000e+03 5.727273e+03
+node 329 coords 3 5.000000e+03 3.600000e+03 6.136364e+03
+node 330 coords 3 5.000000e+03 3.600000e+03 6.545454e+03
+node 331 coords 3 5.000000e+03 3.600000e+03 6.954546e+03
+node 332 coords 3 5.000000e+03 3.600000e+03 7.363636e+03
+node 333 coords 3 5.000000e+03 3.600000e+03 7.772727e+03
+node 334 coords 3 5.000000e+03 3.600000e+03 8.181818e+03
+node 335 coords 3 5.000000e+03 3.600000e+03 8.590909e+03
+node 336 coords 3 1.000000e+04 3.600000e+03 4.090909e+02
+node 337 coords 3 1.000000e+04 3.600000e+03 8.181818e+02
+node 338 coords 3 1.000000e+04 3.600000e+03 1.227273e+03
+node 339 coords 3 1.000000e+04 3.600000e+03 1.636364e+03
+node 340 coords 3 1.000000e+04 3.600000e+03 2.045455e+03
+node 341 coords 3 1.000000e+04 3.600000e+03 2.454546e+03
+node 342 coords 3 1.000000e+04 3.600000e+03 2.863636e+03
+node 343 coords 3 1.000000e+04 3.600000e+03 3.272727e+03
+node 344 coords 3 1.000000e+04 3.600000e+03 3.681818e+03
+node 345 coords 3 1.000000e+04 3.600000e+03 4.090909e+03
+node 346 coords 3 1.000000e+04 3.600000e+03 4.909091e+03
+node 347 coords 3 1.000000e+04 3.600000e+03 5.318182e+03
+node 348 coords 3 1.000000e+04 3.600000e+03 5.727273e+03
+node 349 coords 3 1.000000e+04 3.600000e+03 6.136364e+03
+node 350 coords 3 1.000000e+04 3.600000e+03 6.545454e+03
+node 351 coords 3 1.000000e+04 3.600000e+03 6.954546e+03
+node 352 coords 3 1.000000e+04 3.600000e+03 7.363636e+03
+node 353 coords 3 1.000000e+04 3.600000e+03 7.772727e+03
+node 354 coords 3 1.000000e+04 3.600000e+03 8.181818e+03
+node 355 coords 3 1.000000e+04 3.600000e+03 8.590909e+03
+node 356 coords 3 0.000000e+00 7.200000e+03 4.090909e+02
+node 357 coords 3 0.000000e+00 7.200000e+03 8.181818e+02
+node 358 coords 3 0.000000e+00 7.200000e+03 1.227273e+03
+node 359 coords 3 0.000000e+00 7.200000e+03 1.636364e+03
+node 360 coords 3 0.000000e+00 7.200000e+03 2.045455e+03
+node 361 coords 3 0.000000e+00 7.200000e+03 2.454546e+03
+node 362 coords 3 0.000000e+00 7.200000e+03 2.863636e+03
+node 363 coords 3 0.000000e+00 7.200000e+03 3.272727e+03
+node 364 coords 3 0.000000e+00 7.200000e+03 3.681818e+03
+node 365 coords 3 0.000000e+00 7.200000e+03 4.090909e+03
+node 366 coords 3 0.000000e+00 7.200000e+03 4.909091e+03
+node 367 coords 3 0.000000e+00 7.200000e+03 5.318182e+03
+node 368 coords 3 0.000000e+00 7.200000e+03 5.727273e+03
+node 369 coords 3 0.000000e+00 7.200000e+03 6.136364e+03
+node 370 coords 3 0.000000e+00 7.200000e+03 6.545454e+03
+node 371 coords 3 0.000000e+00 7.200000e+03 6.954546e+03
+node 372 coords 3 0.000000e+00 7.200000e+03 7.363636e+03
+node 373 coords 3 0.000000e+00 7.200000e+03 7.772727e+03
+node 374 coords 3 0.000000e+00 7.200000e+03 8.181818e+03
+node 375 coords 3 0.000000e+00 7.200000e+03 8.590909e+03
+node 376 coords 3 5.000000e+03 7.200000e+03 4.090909e+02
+node 377 coords 3 5.000000e+03 7.200000e+03 8.181818e+02
+node 378 coords 3 5.000000e+03 7.200000e+03 1.227273e+03
+node 379 coords 3 5.000000e+03 7.200000e+03 1.636364e+03
+node 380 coords 3 5.000000e+03 7.200000e+03 2.045455e+03
+node 381 coords 3 5.000000e+03 7.200000e+03 2.454546e+03
+node 382 coords 3 5.000000e+03 7.200000e+03 2.863636e+03
+node 383 coords 3 5.000000e+03 7.200000e+03 3.272727e+03
+node 384 coords 3 5.000000e+03 7.200000e+03 3.681818e+03
+node 385 coords 3 5.000000e+03 7.200000e+03 4.090909e+03
+node 386 coords 3 5.000000e+03 7.200000e+03 4.909091e+03
+node 387 coords 3 5.000000e+03 7.200000e+03 5.318182e+03
+node 388 coords 3 5.000000e+03 7.200000e+03 5.727273e+03
+node 389 coords 3 5.000000e+03 7.200000e+03 6.136364e+03
+node 390 coords 3 5.000000e+03 7.200000e+03 6.545454e+03
+node 391 coords 3 5.000000e+03 7.200000e+03 6.954546e+03
+node 392 coords 3 5.000000e+03 7.200000e+03 7.363636e+03
+node 393 coords 3 5.000000e+03 7.200000e+03 7.772727e+03
+node 394 coords 3 5.000000e+03 7.200000e+03 8.181818e+03
+node 395 coords 3 5.000000e+03 7.200000e+03 8.590909e+03
+node 396 coords 3 1.000000e+04 7.200000e+03 4.090909e+02
+node 397 coords 3 1.000000e+04 7.200000e+03 8.181818e+02
+node 398 coords 3 1.000000e+04 7.200000e+03 1.227273e+03
+node 399 coords 3 1.000000e+04 7.200000e+03 1.636364e+03
+node 400 coords 3 1.000000e+04 7.200000e+03 2.045455e+03
+node 401 coords 3 1.000000e+04 7.200000e+03 2.454546e+03
+node 402 coords 3 1.000000e+04 7.200000e+03 2.863636e+03
+node 403 coords 3 1.000000e+04 7.200000e+03 3.272727e+03
+node 404 coords 3 1.000000e+04 7.200000e+03 3.681818e+03
+node 405 coords 3 1.000000e+04 7.200000e+03 4.090909e+03
+node 406 coords 3 1.000000e+04 7.200000e+03 4.909091e+03
+node 407 coords 3 1.000000e+04 7.200000e+03 5.318182e+03
+node 408 coords 3 1.000000e+04 7.200000e+03 5.727273e+03
+node 409 coords 3 1.000000e+04 7.200000e+03 6.136364e+03
+node 410 coords 3 1.000000e+04 7.200000e+03 6.545454e+03
+node 411 coords 3 1.000000e+04 7.200000e+03 6.954546e+03
+node 412 coords 3 1.000000e+04 7.200000e+03 7.363636e+03
+node 413 coords 3 1.000000e+04 7.200000e+03 7.772727e+03
+node 414 coords 3 1.000000e+04 7.200000e+03 8.181818e+03
+node 415 coords 3 1.000000e+04 7.200000e+03 8.590909e+03
+node 416 coords 3 5.000000e+03 4.000000e+02 4.500000e+03
+node 417 coords 3 5.000000e+03 8.000000e+02 4.500000e+03
+node 418 coords 3 5.000000e+03 1.200000e+03 4.500000e+03
+node 419 coords 3 5.000000e+03 1.600000e+03 4.500000e+03
+node 420 coords 3 5.000000e+03 2.000000e+03 4.500000e+03
+node 421 coords 3 5.000000e+03 2.400000e+03 4.500000e+03
+node 422 coords 3 5.000000e+03 2.800000e+03 4.500000e+03
+node 423 coords 3 5.000000e+03 3.200000e+03 4.500000e+03
+latticeframe3dnl 1 nodes 2 1 28 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 2 nodes 2 28 29 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 3 nodes 2 29 30 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 4 nodes 2 30 31 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 5 nodes 2 31 32 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 6 nodes 2 32 33 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 7 nodes 2 33 34 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 8 nodes 2 34 35 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 9 nodes 2 35 9 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 10 nodes 2 2 36 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 11 nodes 2 36 37 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 12 nodes 2 37 38 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 13 nodes 2 38 39 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 14 nodes 2 39 40 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 15 nodes 2 40 41 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 16 nodes 2 41 42 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 17 nodes 2 42 43 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 18 nodes 2 43 10 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 19 nodes 2 3 44 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 20 nodes 2 44 45 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 21 nodes 2 45 46 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 22 nodes 2 46 47 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 23 nodes 2 47 48 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 24 nodes 2 48 49 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 25 nodes 2 49 50 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 26 nodes 2 50 51 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 27 nodes 2 51 11 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 28 nodes 2 4 52 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 29 nodes 2 52 53 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 30 nodes 2 53 54 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 31 nodes 2 54 55 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 32 nodes 2 55 56 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 33 nodes 2 56 57 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 34 nodes 2 57 58 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 35 nodes 2 58 59 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 36 nodes 2 59 12 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 37 nodes 2 5 60 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 38 nodes 2 60 61 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 39 nodes 2 61 62 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 40 nodes 2 62 63 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 41 nodes 2 63 64 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 42 nodes 2 64 65 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 43 nodes 2 65 66 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 44 nodes 2 66 67 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 45 nodes 2 67 14 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 46 nodes 2 6 68 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 47 nodes 2 68 69 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 48 nodes 2 69 70 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 49 nodes 2 70 71 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 50 nodes 2 71 72 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 51 nodes 2 72 73 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 52 nodes 2 73 74 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 53 nodes 2 74 75 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 54 nodes 2 75 15 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 55 nodes 2 7 76 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 56 nodes 2 76 77 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 57 nodes 2 77 78 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 58 nodes 2 78 79 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 59 nodes 2 79 80 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 60 nodes 2 80 81 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 61 nodes 2 81 82 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 62 nodes 2 82 83 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 63 nodes 2 83 16 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 64 nodes 2 8 84 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 65 nodes 2 84 85 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 66 nodes 2 85 86 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 67 nodes 2 86 87 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 68 nodes 2 87 88 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 69 nodes 2 88 89 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 70 nodes 2 89 90 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 71 nodes 2 90 91 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 72 nodes 2 91 17 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 73 nodes 2 9 92 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 74 nodes 2 92 93 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 75 nodes 2 93 94 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 76 nodes 2 94 95 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 77 nodes 2 95 96 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 78 nodes 2 96 97 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 79 nodes 2 97 98 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 80 nodes 2 98 99 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 81 nodes 2 99 18 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 82 nodes 2 10 100 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 83 nodes 2 100 101 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 84 nodes 2 101 102 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 85 nodes 2 102 103 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 86 nodes 2 103 104 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 87 nodes 2 104 105 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 88 nodes 2 105 106 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 89 nodes 2 106 107 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 90 nodes 2 107 19 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 91 nodes 2 11 108 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 92 nodes 2 108 109 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 93 nodes 2 109 110 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 94 nodes 2 110 111 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 95 nodes 2 111 112 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 96 nodes 2 112 113 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 97 nodes 2 113 114 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 98 nodes 2 114 115 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 99 nodes 2 115 20 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 100 nodes 2 12 116 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 101 nodes 2 116 117 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 102 nodes 2 117 118 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 103 nodes 2 118 119 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 104 nodes 2 119 120 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 105 nodes 2 120 121 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 106 nodes 2 121 122 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 107 nodes 2 122 123 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 108 nodes 2 123 21 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 109 nodes 2 13 124 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 110 nodes 2 124 125 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 111 nodes 2 125 126 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 112 nodes 2 126 127 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 113 nodes 2 127 128 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 114 nodes 2 128 129 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 115 nodes 2 129 130 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 116 nodes 2 130 131 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 117 nodes 2 131 22 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 118 nodes 2 14 132 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 119 nodes 2 132 133 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 120 nodes 2 133 134 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 121 nodes 2 134 135 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 122 nodes 2 135 136 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 123 nodes 2 136 137 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 124 nodes 2 137 138 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 125 nodes 2 138 139 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 126 nodes 2 139 23 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 127 nodes 2 15 140 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 128 nodes 2 140 141 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 129 nodes 2 141 142 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 130 nodes 2 142 143 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 131 nodes 2 143 144 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 132 nodes 2 144 145 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 133 nodes 2 145 146 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 134 nodes 2 146 147 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 135 nodes 2 147 24 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 136 nodes 2 16 148 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 137 nodes 2 148 149 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 138 nodes 2 149 150 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 139 nodes 2 150 151 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 140 nodes 2 151 152 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 141 nodes 2 152 153 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 142 nodes 2 153 154 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 143 nodes 2 154 155 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 144 nodes 2 155 25 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 145 nodes 2 17 156 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 146 nodes 2 156 157 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 147 nodes 2 157 158 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 148 nodes 2 158 159 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 149 nodes 2 159 160 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 150 nodes 2 160 161 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 151 nodes 2 161 162 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 152 nodes 2 162 163 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 153 nodes 2 163 26 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 154 nodes 2 9 164 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 155 nodes 2 164 165 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 156 nodes 2 165 166 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 157 nodes 2 166 167 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 158 nodes 2 167 168 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 159 nodes 2 168 169 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 160 nodes 2 169 170 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 161 nodes 2 170 171 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 162 nodes 2 171 172 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 163 nodes 2 172 173 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 164 nodes 2 173 174 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 165 nodes 2 174 10 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 166 nodes 2 10 175 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 167 nodes 2 175 176 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 168 nodes 2 176 177 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 169 nodes 2 177 178 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 170 nodes 2 178 179 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 171 nodes 2 179 180 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 172 nodes 2 180 181 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 173 nodes 2 181 182 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 174 nodes 2 182 183 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 175 nodes 2 183 184 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 176 nodes 2 184 185 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 177 nodes 2 185 11 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 178 nodes 2 12 186 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 179 nodes 2 186 187 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 180 nodes 2 187 188 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 181 nodes 2 188 189 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 182 nodes 2 189 190 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 183 nodes 2 190 191 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 184 nodes 2 191 192 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 185 nodes 2 192 193 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 186 nodes 2 193 194 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 187 nodes 2 194 195 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 188 nodes 2 195 196 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 189 nodes 2 196 13 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 190 nodes 2 13 197 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 191 nodes 2 197 198 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 192 nodes 2 198 199 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 193 nodes 2 199 200 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 194 nodes 2 200 201 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 195 nodes 2 201 202 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 196 nodes 2 202 203 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 197 nodes 2 203 204 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 198 nodes 2 204 205 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 199 nodes 2 205 206 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 200 nodes 2 206 207 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 201 nodes 2 207 14 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 202 nodes 2 15 208 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 203 nodes 2 208 209 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 204 nodes 2 209 210 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 205 nodes 2 210 211 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 206 nodes 2 211 212 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 207 nodes 2 212 213 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 208 nodes 2 213 214 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 209 nodes 2 214 215 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 210 nodes 2 215 216 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 211 nodes 2 216 217 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 212 nodes 2 217 218 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 213 nodes 2 218 16 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 214 nodes 2 16 219 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 215 nodes 2 219 220 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 216 nodes 2 220 221 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 217 nodes 2 221 222 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 218 nodes 2 222 223 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 219 nodes 2 223 224 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 220 nodes 2 224 225 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 221 nodes 2 225 226 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 222 nodes 2 226 227 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 223 nodes 2 227 228 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 224 nodes 2 228 229 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 225 nodes 2 229 17 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 226 nodes 2 18 230 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 227 nodes 2 230 231 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 228 nodes 2 231 232 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 229 nodes 2 232 233 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 230 nodes 2 233 234 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 231 nodes 2 234 235 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 232 nodes 2 235 236 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 233 nodes 2 236 237 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 234 nodes 2 237 238 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 235 nodes 2 238 239 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 236 nodes 2 239 240 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 237 nodes 2 240 19 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 238 nodes 2 19 241 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 239 nodes 2 241 242 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 240 nodes 2 242 243 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 241 nodes 2 243 244 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 242 nodes 2 244 245 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 243 nodes 2 245 246 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 244 nodes 2 246 247 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 245 nodes 2 247 248 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 246 nodes 2 248 249 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 247 nodes 2 249 250 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 248 nodes 2 250 251 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 249 nodes 2 251 20 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 250 nodes 2 21 252 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 251 nodes 2 252 253 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 252 nodes 2 253 254 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 253 nodes 2 254 255 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 254 nodes 2 255 256 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 255 nodes 2 256 257 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 256 nodes 2 257 258 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 257 nodes 2 258 259 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 258 nodes 2 259 260 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 259 nodes 2 260 261 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 260 nodes 2 261 262 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 261 nodes 2 262 22 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 262 nodes 2 22 263 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 263 nodes 2 263 264 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 264 nodes 2 264 265 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 265 nodes 2 265 266 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 266 nodes 2 266 267 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 267 nodes 2 267 268 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 268 nodes 2 268 269 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 269 nodes 2 269 270 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 270 nodes 2 270 271 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 271 nodes 2 271 272 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 272 nodes 2 272 273 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 273 nodes 2 273 23 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 274 nodes 2 24 274 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 275 nodes 2 274 275 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 276 nodes 2 275 276 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 277 nodes 2 276 277 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 278 nodes 2 277 278 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 279 nodes 2 278 279 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 280 nodes 2 279 280 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 281 nodes 2 280 281 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 282 nodes 2 281 282 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 283 nodes 2 282 283 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 284 nodes 2 283 284 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 285 nodes 2 284 25 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 286 nodes 2 25 285 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 287 nodes 2 285 286 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 288 nodes 2 286 287 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 289 nodes 2 287 288 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 290 nodes 2 288 289 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 291 nodes 2 289 290 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 292 nodes 2 290 291 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 293 nodes 2 291 292 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 294 nodes 2 292 293 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 295 nodes 2 293 294 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 296 nodes 2 294 295 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 297 nodes 2 295 26 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 298 nodes 2 9 296 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 299 nodes 2 296 297 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 300 nodes 2 297 298 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 301 nodes 2 298 299 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 302 nodes 2 299 300 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 303 nodes 2 300 301 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 304 nodes 2 301 302 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 305 nodes 2 302 303 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 306 nodes 2 303 304 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 307 nodes 2 304 305 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 308 nodes 2 305 12 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 309 nodes 2 12 306 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 310 nodes 2 306 307 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 311 nodes 2 307 308 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 312 nodes 2 308 309 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 313 nodes 2 309 310 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 314 nodes 2 310 311 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 315 nodes 2 311 312 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 316 nodes 2 312 313 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 317 nodes 2 313 314 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 318 nodes 2 314 315 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 319 nodes 2 315 15 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 320 nodes 2 10 316 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 321 nodes 2 316 317 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 322 nodes 2 317 318 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 323 nodes 2 318 319 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 324 nodes 2 319 320 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 325 nodes 2 320 321 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 326 nodes 2 321 322 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 327 nodes 2 322 323 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 328 nodes 2 323 324 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 329 nodes 2 324 325 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 330 nodes 2 325 13 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 331 nodes 2 13 326 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 332 nodes 2 326 327 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 333 nodes 2 327 328 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 334 nodes 2 328 329 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 335 nodes 2 329 330 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 336 nodes 2 330 331 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 337 nodes 2 331 332 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 338 nodes 2 332 333 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 339 nodes 2 333 334 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 340 nodes 2 334 335 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 341 nodes 2 335 16 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 342 nodes 2 11 336 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 343 nodes 2 336 337 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 344 nodes 2 337 338 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 345 nodes 2 338 339 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 346 nodes 2 339 340 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 347 nodes 2 340 341 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 348 nodes 2 341 342 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 349 nodes 2 342 343 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 350 nodes 2 343 344 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 351 nodes 2 344 345 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 352 nodes 2 345 14 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 353 nodes 2 14 346 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 354 nodes 2 346 347 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 355 nodes 2 347 348 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 356 nodes 2 348 349 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 357 nodes 2 349 350 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 358 nodes 2 350 351 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 359 nodes 2 351 352 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 360 nodes 2 352 353 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 361 nodes 2 353 354 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 362 nodes 2 354 355 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 363 nodes 2 355 17 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 364 nodes 2 18 356 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 365 nodes 2 356 357 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 366 nodes 2 357 358 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 367 nodes 2 358 359 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 368 nodes 2 359 360 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 369 nodes 2 360 361 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 370 nodes 2 361 362 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 371 nodes 2 362 363 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 372 nodes 2 363 364 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 373 nodes 2 364 365 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 374 nodes 2 365 21 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 375 nodes 2 21 366 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 376 nodes 2 366 367 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 377 nodes 2 367 368 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 378 nodes 2 368 369 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 379 nodes 2 369 370 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 380 nodes 2 370 371 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 381 nodes 2 371 372 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 382 nodes 2 372 373 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 383 nodes 2 373 374 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 384 nodes 2 374 375 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 385 nodes 2 375 24 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 386 nodes 2 19 376 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 387 nodes 2 376 377 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 388 nodes 2 377 378 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 389 nodes 2 378 379 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 390 nodes 2 379 380 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 391 nodes 2 380 381 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 392 nodes 2 381 382 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 393 nodes 2 382 383 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 394 nodes 2 383 384 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 395 nodes 2 384 385 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 396 nodes 2 385 22 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 397 nodes 2 22 386 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 398 nodes 2 386 387 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 399 nodes 2 387 388 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 400 nodes 2 388 389 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 401 nodes 2 389 390 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 402 nodes 2 390 391 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 403 nodes 2 391 392 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 404 nodes 2 392 393 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 405 nodes 2 393 394 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 406 nodes 2 394 395 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 407 nodes 2 395 25 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 408 nodes 2 20 396 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 409 nodes 2 396 397 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 410 nodes 2 397 398 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 411 nodes 2 398 399 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 412 nodes 2 399 400 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 413 nodes 2 400 401 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 414 nodes 2 401 402 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 415 nodes 2 402 403 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 416 nodes 2 403 404 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 417 nodes 2 404 405 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 418 nodes 2 405 23 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 419 nodes 2 23 406 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 420 nodes 2 406 407 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 421 nodes 2 407 408 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 422 nodes 2 408 409 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 423 nodes 2 409 410 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 424 nodes 2 410 411 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 425 nodes 2 411 412 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 426 nodes 2 412 413 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 427 nodes 2 413 414 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 428 nodes 2 414 415 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 429 nodes 2 415 26 zaxis 3 -1 0 0 crossSect 1 mat 1
+latticeframe3dnl 430 nodes 2 27 416 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 431 nodes 2 416 417 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 432 nodes 2 417 418 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 433 nodes 2 418 419 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 434 nodes 2 419 420 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 435 nodes 2 420 421 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 436 nodes 2 421 422 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 437 nodes 2 422 423 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 438 nodes 2 423 13 zaxis 3 0 0 1 crossSect 2 mat 2
+latticecs 1 material 1 iy 5.5e8 iz 1.6e9 ik 2.15e9 shearCoeff 0.833 area 106250 
+latticecs 2 material 2 iy 5.46e7 iz 5.46e7 ik 1.092e8 shearCoeff 0.833 area 25600
+latticeframeconcreteplastic 1 d 1. E 35920 n 0.3 talpha 0 nx0 3.7e6 vy0 1.69e5 vz0 1.69e5 mx0 58e6 my0 8e7 mz0 1.75e8 nx01 6.5e5 vy01 1.69e5 vz01 1.69e5 mx01 58e6 my01 8e7 mz01 1.75e8 tol 1.e-6 iter 100 sub 10 wu 1 wf 2
+latticeframeconcreteplastic 2 d 1. E 35920 n 0.3 talpha 0 nx0 1.7e6 vy0 1.69e5 vz0 1.69e5 mx0 58e6 my0 4.1e7 mz0 4.1e7 nx01 6.03e5 vy01 1.69e5 vz01 1.69e5 mx01 58e6 my01 4.1e7 mz01 4.1e7 tol 1.e-6 iter 100 sub 10 wu 1 wf 2
+BoundaryCondition 1 loadTimeFunction 1 prescribedvalue 0.0
+NodalLoad 2 loadTimeFunction 2 dofs 1 2 components 1 -11041 set 1
+NodalLoad 3 loadTimeFunction 2 dofs 1 2 Components 1 -10840 set 2
+NodalLoad 4 loadTimeFunction 2 dofs 1 2 components 1 -10940 set 3
+NodalLoad 5 loadTimeFunction 2 dofs 1 2 Components 1 -16461 set 4
+NodalLoad 6 loadTimeFunction 2 dofs 1 2 Components 1 -16361 set 5
+NodalLoad 7 loadTimeFunction 2 dofs 1 2 Components 1 -21000 set 6
+NodalLoad 8 loadTimeFunction 3 dofs 1 1 Components 1 1 set 7
+ConstantFunction 1 f(t) 1 
+PiecewiseLinFunction 2 t 4 0.0 0.0 0.1 4001. f(t) 4 1 1 0. 0.
+PiecewiseLinFunction 3 t 4 0.0 0.0 0.1 4001. f(t) 4 0. 0. 0. 1.
+#Beam5
+Set 1 nodes 132 164	165	166	167	168	169	170	171	172	173	174	175	176	177	178	179	180	181	182	183	184	185	186	187	188	189	190	191	192	193	194	195	196	197	198	199	200	201	202	203	204	205	206	207	208	209	210	211	212	213	214	215	216	217	218	219	220	221	222	223	224	225	226	227	228	229	230	231	232	233	234	235	236	237	238	239	240	241	242	243	244	245	246	247	248	249	250	251	252	253	254	255	256	257	258	259	260	261	262	263	264	265	266	267	268	269	270	271	272	273	274	275	276	277	278	279	280	281	282	283	284	285	286	287	288	289	290	291	292	293	294	295	
+#Beam4.5
+Set 2 nodes 120 296	297	298	299	300	301	302	303	304	305	306	307	308	309	310	311	312	313	314	315	316	317	318	319	320	321	322	323	324	325	326	327	328	329	330	331	332	333	334	335	336	337	338	339	340	341	342	343	344	345	346	347	348	349	350	351	352	353	354	355	356	357	358	359	360	361	362	363	364	365	366	367	368	369	370	371	372	373	374	375	376	377	378	379	380	381	382	383	384	385	386	387	388	389	390	391	392	393	394	395	396	397	398	399	400	401	402	403	404	405	406	407	408	409	410	411	412	413	414	415	
+#Node2
+Set 3 nodes 8 9 11 15 17 18 20 24 26
+#Node3LB
+Set 4 nodes 4 10 16 19 25
+#Node3SB
+Set 5 nodes 4 12 14 21 23 
+#Node4
+Set 6 nodes 2 13 22
+#Side
+Set 7 nodes 6   18  9 21  12 24  15 
+#%BEGIN_CHECK% 
+#DOFMAN number 21 dof 1 type d 
+#LOADLEVEL
+#TIME 
+#%END_CHECK%
