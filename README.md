@@ -1,4 +1,4 @@
-Input data for "A simple frame element for large rotations", Gumaa Abdelrhim, Peter Grassl
+Input data for "A 3D frame element for large rotations based on the rigid body spring concept for analysing the failure of structures", Gumaa Abdelrhim, Peter Grassl
 
 Pure Bending
 Buckling elastic
