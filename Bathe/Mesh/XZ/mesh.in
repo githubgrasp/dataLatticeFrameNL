@@ -1,0 +1,8 @@
+#t3d -i mesh.in -o mesh.out -d 0.1 -X -p 8
+
+vertex 1 xyz 2.54 0. 0
+vertex 2 xyz 1.796 0. -1.796
+
+curve 1 order 4 vertex 1 2
+polygon 1 xyz 2.54 0. -0.683 weight 0.95
+polygon 2 xyz 2.279 0. -1.313 weight 0.95

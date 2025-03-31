@@ -1,0 +1,84 @@
+oofem.out
+Buckling3D. Model
+NonlinearStatic nmsteps 1 nsteps 1 nmodules 1
+nsteps 100 stiffmode 0 rtolf 1.e-3 maxiter 20000 initialguess 1 controlmode 1 
+vtkxml tstep_step 1 primvars 1 1 cellvars 8 138 139 140 47 46 45 141 52 domain_all element_all
+domain 3dLattice
+OutputManager tstep_step 1 dofman_all element_all
+ndofman 17 nelem 16 ncrosssect 1 nmat 1 nbc 2 nic 0 nltf 2
+node 1 coords 3 0.000000e+00 0.000000e+00 0.000000e+00 bc 6 1 1 1 1 1 1
+node 2 coords 3 1.294000e+01 3.860000e-01 0.000000e+00 bc 6 1 2 1 1 1 1
+node 3 coords 3 8.087500e-01 2.412500e-02 0.000000e+00
+node 4 coords 3 1.617500e+00 4.825000e-02 0.000000e+00
+node 5 coords 3 2.426250e+00 7.237500e-02 0.000000e+00
+node 6 coords 3 3.235000e+00 9.650000e-02 0.000000e+00
+node 7 coords 3 4.043750e+00 1.206250e-01 0.000000e+00
+node 8 coords 3 4.852500e+00 1.447500e-01 0.000000e+00
+node 9 coords 3 5.661250e+00 1.688750e-01 0.000000e+00
+node 10 coords 3 6.470000e+00 1.930000e-01 0.000000e+00
+node 11 coords 3 7.278750e+00 2.171250e-01 0.000000e+00
+node 12 coords 3 8.087500e+00 2.412500e-01 0.000000e+00
+node 13 coords 3 8.896250e+00 2.653750e-01 0.000000e+00
+node 14 coords 3 9.705000e+00 2.895000e-01 0.000000e+00
+node 15 coords 3 1.051375e+01 3.136250e-01 0.000000e+00
+node 16 coords 3 1.132250e+01 3.377500e-01 0.000000e+00
+node 17 coords 3 1.213125e+01 3.618750e-01 0.000000e+00
+latticeframe3dnl 1 nodes 2 1 3 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 2 nodes 2 3 4 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 3 nodes 2 4 5 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 4 nodes 2 5 6 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 5 nodes 2 6 7 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 6 nodes 2 7 8 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 7 nodes 2 8 9 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 8 nodes 2 9 10 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 9 nodes 2 10 11 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 10 nodes 2 11 12 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 11 nodes 2 12 13 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 12 nodes 2 13 14 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 13 nodes 2 14 15 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 14 nodes 2 15 16 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 15 nodes 2 16 17 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 16 nodes 2 17 2 zaxis 3 0 0 1 crossSect 1 mat 1
+latticecs 1 material 1 iy 8.64e-3 iz 9e-4 ik 9.5e-3 shearCoeff 0.83 area 0.1829
+latticeframeelastic 1 d 7600. E 10.3e6 n 0.3 talpha 0 
+BoundaryCondition 1 loadTimeFunction 1 prescribedvalue 0.0
+BoundaryCondition 2 loadTimeFunction 2 prescribedvalue -1.
+ConstantFunction 1 f(t) 1 
+PiecewiseLinFunction 2 t 2 -1 100 f(t) 2 0 0.8 
+
+#%BEGIN_CHECK% 
+#DOFMAN number 1 dof 1 type d
+#DOFMAN number 2 dof 1 type d
+#DOFMAN number 3 dof 1 type d
+#DOFMAN number 4 dof 1 type d
+#DOFMAN number 5 dof 1 type d
+#DOFMAN number 6 dof 1 type d
+#DOFMAN number 7 dof 1 type d
+#DOFMAN number 8 dof 1 type d
+#DOFMAN number 9 dof 1 type d
+#DOFMAN number 10 dof 1 type d
+#DOFMAN number 11 dof 1 type d
+#DOFMAN number 12 dof 1 type d
+#DOFMAN number 13 dof 1 type d
+#DOFMAN number 14 dof 1 type d
+#DOFMAN number 15 dof 1 type d
+#DOFMAN number 16 dof 1 type d
+#DOFMAN number 17 dof 1 type d
+#DOFMAN number 1 dof 2 type d
+#DOFMAN number 2 dof 2 type d
+#DOFMAN number 3 dof 2 type d
+#DOFMAN number 4 dof 2 type d
+#DOFMAN number 5 dof 2 type d
+#DOFMAN number 6 dof 2 type d
+#DOFMAN number 7 dof 2 type d
+#DOFMAN number 8 dof 2 type d
+#DOFMAN number 9 dof 2 type d
+#DOFMAN number 10 dof 2 type d
+#DOFMAN number 11 dof 2 type d
+#DOFMAN number 12 dof 2 type d
+#DOFMAN number 13 dof 2 type d
+#DOFMAN number 14 dof 2 type d
+#DOFMAN number 15 dof 2 type d
+#DOFMAN number 16 dof 2 type d
+#DOFMAN number 17 dof 2 type d
+#%END_CHECK%

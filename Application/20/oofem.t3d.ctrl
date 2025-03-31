@@ -1,0 +1,255 @@
+oofem.out
+3D Space frame. Strong columns weak beams. Steel
+NonlinearStatic nmsteps 2 nsteps 1 nmodules 1  profileopt 1
+nsteps 1 stiffmode 0 rtolv 1.e-3 maxiter 500 initialguess 0 controlmode 1 refloadmode 0  
+nsteps 40000 stiffmode 0 rtolv 1.e-3 maxiter 2000 initialguess 0 controlmode 0 psi 0. steplength 1.e-1 minsteplength 1.e-1 hpcmode 2 hpc 2 21 1 hpcw 1 1.  
+vtkxml tstep_step 20  primvars 1 1 cellvars 8 138 139 140 47 46 45 141 52 domain_all element_all
+domain 3dLattice
+OutputManager tstep_step 20 dofman_all element_all
+ncrosssect 2 nmat 2 nbc 8 nic 0 nltf 3 nset 7
+#beams y-strong axis
+latticecs 1 material 1 iy 21940.e4 iz 640e4 ik 11.4e4 shearCoeff 0.833 area 54.7e2 
+#columns
+latticecs 2 material 2 iy 250700.e4 iz 250000.e4  ik 4.91e4 shearCoeff 0.833 area 112.6e2
+#beams y-strong axis 
+latticeframeconcreteplastic 1 d 1. E 200000 n 0.3 talpha 0 nx0 1.941e6 mx0 3.1e6 my0 590e6 mz0 52.e6 tol 1.e-6 iter 100 sub 10
+#columns
+latticeframeconcreteplastic 1 d 1. E 200000 n 0.3 talpha 0 nx0 40.e6 mx0 67.4e6 my0 7473.e6 mz0 7473.e6 tol 1.e-6 iter 100 sub 10
+BoundaryCondition 1 loadTimeFunction 1 prescribedvalue 0.0
+NodalLoad 2 loadTimeFunction 2 dofs 1 2 components 1 -11041 set 1
+NodalLoad 3 loadTimeFunction 2 dofs 1 2 Components 1 -10840 set 2
+NodalLoad 4 loadTimeFunction 2 dofs 1 2 components 1 -10940 set 3
+NodalLoad 5 loadTimeFunction 2 dofs 1 2 Components 1 -16461 set 4
+NodalLoad 6 loadTimeFunction 2 dofs 1 2 Components 1 -16361 set 5
+NodalLoad 7 loadTimeFunction 2 dofs 1 2 Components 1 -21000 set 6
+NodalLoad 8 loadTimeFunction 3 dofs 1 1 Components 1 1 set 7
+ConstantFunction 1 f(t) 1 
+PiecewiseLinFunction 2 t 4 0.0 0.0 0.1 4001. f(t) 4 1 1 0. 0.
+PiecewiseLinFunction 3 t 4 0.0 0.0 0.1 4001. f(t) 4 0. 0. 0. 1.
+#Beam5
+#Set 1 nodes 132 164	165	166	167	168	169	170	171	172	173	174	175	176	177	178	179	180	181	182	183	184	185	186	187	188	189	190	191	192	193	194	195	196	197	198	199	200	201	202	203	204	205	206	207	208	209	210	211	212	213	214	215	216	217	218	219	220	221	222	223	224	225	226	227	228	229	230	231	232	233	234	235	236	237	238	239	240	241	242	243	244	245	246	247	248	249	250	251	252	253	254	255	256	257	258	259	260	261	262	263	264	265	266	267	268	269	270	271	272	273	274	275	276	277	278	279	280	281	282	283	284	285	286	287	288	289	290	291	292	293	294	295	
+#Beam4.5
+#Set 2 nodes 120 296	297	298	299	300	301	302	303	304	305	306	307	308	309	310	311	312	313	314	315	316	317	318	319	320	321	322	323	324	325	326	327	328	329	330	331	332	333	334	335	336	337	338	339	340	341	342	343	344	345	346	347	348	349	350	351	352	353	354	355	356	357	358	359	360	361	362	363	364	365	366	367	368	369	370	371	372	373	374	375	376	377	378	379	380	381	382	383	384	385	386	387	388	389	390	391	392	393	394	395	396	397	398	399	400	401	402	403	404	405	406	407	408	409	410	411	412	413	414	415	
+#Node2
+#Set 3 nodes 8 9 11 15 17 18 20 24 26
+#Node3LB
+#Set 4 nodes 4 10 16 19 25
+#Node3SB
+#Set 5 nodes 4 12 14 21 23 
+#Node4
+#Set 6 nodes 2 13 22
+#Side
+#Set 7 nodes 6   18  9 21  12 24  15 
+
+#===========================================columns
+curve 1 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 2 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 3 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 4 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 5 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 6 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 7 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 8 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 9 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 10 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 11 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 12 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 13 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 14 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 15 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 16 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+curve 17 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+#===========================================beams 
+
+curve 18 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 19 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+
+curve 20 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+
+curve 21 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 22 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 23 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 24 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 25 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 26 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 27 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+
+curve 28 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 29 
+elemprop zaxis 3 0 0 1 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+#===========================================beams 
+
+curve 30 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 31 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 32 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 33 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 34 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 35 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 36 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 37 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 38 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 39 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 40 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 41 
+elemprop zaxis 3 -1 0 0 crossSect 1 mat 1 
+edgetype latticeframe3d
+
+curve 42 
+elemprop zaxis 3 0 0 1 crossSect 2 mat 2 
+edgetype latticeframe3d
+
+
+
+vertex 1
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 2
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 3
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 4
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 5
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 6
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 7
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 8
+nodeprop bc 6 1 1 1 1 1 1
+
+vertex 27
+nodeprop bc 6 1 1 1 1 1 1
+
+
+#%BEGIN_CHECK% 
+#DOFMAN number 21 dof 1 type d 
+#LOADLEVEL
+#TIME 
+#%END_CHECK%
+

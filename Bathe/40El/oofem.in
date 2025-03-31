@@ -1,0 +1,227 @@
+oofem.out
+Bathe's torsion test
+StaticStructural nmsteps 1 nsteps 1 nmodules 1 smtype 7 lstype 3
+nsteps 100 rtolf 1.e-3 maxiter 20000 stiffmode 0 initialguess 1 manrmsteps 1 smtype 7 lstype 3
+vtkxml primvars 1 1 primvars 1 1 cellvars 8 138 139 140 47 46 45 141 52 tstep_step 1 domain_all
+domain 3dLattice
+OutputManager tstep_step 1 dofman_all element_all
+ndofman 41 nelem 40 ncrosssect 1 nmat 1 nbc 2 nic 0 nltf 2 nset 1
+node 1 coords 3 2.540000e+00 0.000000e+00 0.000000e+00 bc 6 1 1 1 1 1 1
+node 2 coords 3 1.796000e+00 -1.796000e+00 0.000000e+00
+node 3 coords 3 2.539512e+00 -4.986882e-02 0.000000e+00
+node 4 coords 3 2.538047e+00 -9.971981e-02 0.000000e+00
+node 5 coords 3 2.535605e+00 -1.495335e-01 0.000000e+00
+node 6 coords 3 2.532187e+00 -1.992902e-01 0.000000e+00
+node 7 coords 3 2.527794e+00 -2.489681e-01 0.000000e+00
+node 8 coords 3 2.522428e+00 -2.985511e-01 0.000000e+00
+node 9 coords 3 2.516089e+00 -3.480198e-01 0.000000e+00
+node 10 coords 3 2.508781e+00 -3.973550e-01 0.000000e+00
+node 11 coords 3 2.500505e+00 -4.465365e-01 0.000000e+00
+node 12 coords 3 2.491265e+00 -4.955454e-01 0.000000e+00
+node 13 coords 3 2.481065e+00 -5.443639e-01 0.000000e+00
+node 14 coords 3 2.469907e+00 -5.929727e-01 0.000000e+00
+node 15 coords 3 2.457796e+00 -6.413531e-01 0.000000e+00
+node 16 coords 3 2.444736e+00 -6.894861e-01 0.000000e+00
+node 17 coords 3 2.430733e+00 -7.373524e-01 0.000000e+00
+node 18 coords 3 2.415792e+00 -7.849344e-01 0.000000e+00
+node 19 coords 3 2.399918e+00 -8.322136e-01 0.000000e+00
+node 20 coords 3 2.383117e+00 -8.791715e-01 0.000000e+00
+node 21 coords 3 2.365396e+00 -9.257901e-01 0.000000e+00
+node 22 coords 3 2.346762e+00 -9.720511e-01 0.000000e+00
+node 23 coords 3 2.327222e+00 -1.017937e+00 0.000000e+00
+node 24 coords 3 2.306784e+00 -1.063429e+00 0.000000e+00
+node 25 coords 3 2.285455e+00 -1.108511e+00 0.000000e+00
+node 26 coords 3 2.263244e+00 -1.153165e+00 0.000000e+00
+node 27 coords 3 2.240159e+00 -1.197374e+00 0.000000e+00
+node 28 coords 3 2.216210e+00 -1.241120e+00 0.000000e+00
+node 29 coords 3 2.191405e+00 -1.284387e+00 0.000000e+00
+node 30 coords 3 2.165755e+00 -1.327159e+00 0.000000e+00
+node 31 coords 3 2.139270e+00 -1.369418e+00 0.000000e+00
+node 32 coords 3 2.111959e+00 -1.411149e+00 0.000000e+00
+node 33 coords 3 2.083835e+00 -1.452335e+00 0.000000e+00
+node 34 coords 3 2.054908e+00 -1.492961e+00 0.000000e+00
+node 35 coords 3 2.025188e+00 -1.533012e+00 0.000000e+00
+node 36 coords 3 1.994688e+00 -1.572472e+00 0.000000e+00
+node 37 coords 3 1.963420e+00 -1.611326e+00 0.000000e+00
+node 38 coords 3 1.931397e+00 -1.649558e+00 0.000000e+00
+node 39 coords 3 1.898630e+00 -1.687157e+00 0.000000e+00
+node 40 coords 3 1.865132e+00 -1.724107e+00 0.000000e+00
+node 41 coords 3 1.830917e+00 -1.760392e+00 0.000000e+00
+latticeframe3dnl 1 nodes 2 1 3 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 2 nodes 2 3 4 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 3 nodes 2 4 5 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 4 nodes 2 5 6 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 5 nodes 2 6 7 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 6 nodes 2 7 8 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 7 nodes 2 8 9 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 8 nodes 2 9 10 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 9 nodes 2 10 11 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 10 nodes 2 11 12 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 11 nodes 2 12 13 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 12 nodes 2 13 14 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 13 nodes 2 14 15 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 14 nodes 2 15 16 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 15 nodes 2 16 17 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 16 nodes 2 17 18 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 17 nodes 2 18 19 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 18 nodes 2 19 20 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 19 nodes 2 20 21 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 20 nodes 2 21 22 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 21 nodes 2 22 23 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 22 nodes 2 23 24 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 23 nodes 2 24 25 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 24 nodes 2 25 26 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 25 nodes 2 26 27 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 26 nodes 2 27 28 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 27 nodes 2 28 29 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 28 nodes 2 29 30 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 29 nodes 2 30 31 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 30 nodes 2 31 32 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 31 nodes 2 32 33 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 32 nodes 2 33 34 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 33 nodes 2 34 35 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 34 nodes 2 35 36 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 35 nodes 2 36 37 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 36 nodes 2 37 38 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 37 nodes 2 38 39 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 38 nodes 2 39 40 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 39 nodes 2 40 41 crossSect 1 mat 1 zaxis 3 0 0 1
+latticeframe3dnl 40 nodes 2 41 2 crossSect 1 mat 1 zaxis 3 0 0 1
+latticecs 1 material 1 iy 34.69e-9 iz 34.69e-9 ik 69.37e-9 shearCoeff 0.83 area 6.4516e-4
+latticeframeelastic 1 d 1. E 68.94 n 0.0 talpha 0
+BoundaryCondition  1 loadTimeFunction 1 prescribedvalue 0.0 
+NodalLoad 2 loadTimeFunction 2 dofs 6 1 2 3 4 5 6 components 6 0. 0. 2700.e-9 0. 0. 0. set 1
+ConstantFunction 1 f(t) 1.0  
+PiecewiseLinFunction 2 t 2 0. 100. f(t) 2 0.0 1.0
+set 1 nodes 1 2
+
+#%BEGIN_CHECK%
+#DOFMAN  number 1 dof 1 type d
+#DOFMAN  number 2 dof 1 type d
+#DOFMAN  number 3 dof 1 type d
+#DOFMAN  number 4 dof 1 type d
+#DOFMAN  number 5 dof 1 type d
+#DOFMAN  number 6 dof 1 type d
+#DOFMAN  number 7 dof 1 type d
+#DOFMAN  number 8 dof 1 type d
+#DOFMAN  number 9 dof 1 type d
+#DOFMAN  number 10 dof 1 type d
+#DOFMAN  number 11 dof 1 type d
+#DOFMAN  number 12 dof 1 type d
+#DOFMAN  number 13 dof 1 type d
+#DOFMAN  number 14 dof 1 type d
+#DOFMAN  number 15 dof 1 type d
+#DOFMAN  number 16 dof 1 type d
+#DOFMAN  number 17 dof 1 type d
+#DOFMAN  number 18 dof 1 type d
+#DOFMAN  number 19 dof 1 type d
+#DOFMAN  number 20 dof 1 type d
+#DOFMAN  number 21 dof 1 type d
+#DOFMAN  number 22 dof 1 type d
+#DOFMAN  number 23 dof 1 type d
+#DOFMAN  number 24 dof 1 type d
+#DOFMAN  number 25 dof 1 type d
+#DOFMAN  number 26 dof 1 type d
+#DOFMAN  number 27 dof 1 type d
+#DOFMAN  number 28 dof 1 type d
+#DOFMAN  number 29 dof 1 type d
+#DOFMAN  number 30 dof 1 type d
+#DOFMAN  number 31 dof 1 type d
+#DOFMAN  number 32 dof 1 type d
+#DOFMAN  number 33 dof 1 type d
+#DOFMAN  number 34 dof 1 type d
+#DOFMAN  number 35 dof 1 type d
+#DOFMAN  number 36 dof 1 type d
+#DOFMAN  number 37 dof 1 type d
+#DOFMAN  number 38 dof 1 type d
+#DOFMAN  number 39 dof 1 type d
+#DOFMAN  number 40 dof 1 type d
+#DOFMAN  number 41 dof 1 type d
+#DOFMAN  number 1 dof 2 type d
+#DOFMAN  number 2 dof 2 type d
+#DOFMAN  number 3 dof 2 type d
+#DOFMAN  number 4 dof 2 type d
+#DOFMAN  number 5 dof 2 type d
+#DOFMAN  number 6 dof 2 type d
+#DOFMAN  number 7 dof 2 type d
+#DOFMAN  number 8 dof 2 type d
+#DOFMAN  number 9 dof 2 type d
+#DOFMAN  number 10 dof 2 type d
+#DOFMAN  number 11 dof 2 type d
+#DOFMAN  number 12 dof 2 type d
+#DOFMAN  number 13 dof 2 type d
+#DOFMAN  number 14 dof 2 type d
+#DOFMAN  number 15 dof 2 type d
+#DOFMAN  number 16 dof 2 type d
+#DOFMAN  number 17 dof 2 type d
+#DOFMAN  number 18 dof 2 type d
+#DOFMAN  number 19 dof 2 type d
+#DOFMAN  number 20 dof 2 type d
+#DOFMAN  number 21 dof 2 type d
+#DOFMAN  number 22 dof 2 type d
+#DOFMAN  number 23 dof 2 type d
+#DOFMAN  number 24 dof 2 type d
+#DOFMAN  number 25 dof 2 type d
+#DOFMAN  number 26 dof 2 type d
+#DOFMAN  number 27 dof 2 type d
+#DOFMAN  number 28 dof 2 type d
+#DOFMAN  number 29 dof 2 type d
+#DOFMAN  number 30 dof 2 type d
+#DOFMAN  number 31 dof 2 type d
+#DOFMAN  number 32 dof 2 type d
+#DOFMAN  number 33 dof 2 type d
+#DOFMAN  number 34 dof 2 type d
+#DOFMAN  number 35 dof 2 type d
+#DOFMAN  number 36 dof 2 type d
+#DOFMAN  number 37 dof 2 type d
+#DOFMAN  number 38 dof 2 type d
+#DOFMAN  number 39 dof 2 type d
+#DOFMAN  number 40 dof 2 type d
+#DOFMAN  number 41 dof 2 type d
+#DOFMAN  number 1 dof 3 type d
+#DOFMAN  number 2 dof 3 type d
+#DOFMAN  number 3 dof 3 type d
+#DOFMAN  number 4 dof 3 type d
+#DOFMAN  number 5 dof 3 type d
+#DOFMAN  number 6 dof 3 type d
+#DOFMAN  number 7 dof 3 type d
+#DOFMAN  number 8 dof 3 type d
+#DOFMAN  number 9 dof 3 type d
+#DOFMAN  number 10 dof 3 type d
+#DOFMAN  number 11 dof 3 type d
+#DOFMAN  number 12 dof 3 type d
+#DOFMAN  number 13 dof 3 type d
+#DOFMAN  number 14 dof 3 type d
+#DOFMAN  number 15 dof 3 type d
+#DOFMAN  number 16 dof 3 type d
+#DOFMAN  number 17 dof 3 type d
+#DOFMAN  number 18 dof 3 type d
+#DOFMAN  number 19 dof 3 type d
+#DOFMAN  number 20 dof 3 type d
+#DOFMAN  number 21 dof 3 type d
+#DOFMAN  number 22 dof 3 type d
+#DOFMAN  number 23 dof 3 type d
+#DOFMAN  number 24 dof 3 type d
+#DOFMAN  number 25 dof 3 type d
+#DOFMAN  number 26 dof 3 type d
+#DOFMAN  number 27 dof 3 type d
+#DOFMAN  number 28 dof 3 type d
+#DOFMAN  number 29 dof 3 type d
+#DOFMAN  number 30 dof 3 type d
+#DOFMAN  number 31 dof 3 type d
+#DOFMAN  number 32 dof 3 type d
+#DOFMAN  number 33 dof 3 type d
+#DOFMAN  number 34 dof 3 type d
+#DOFMAN  number 35 dof 3 type d
+#DOFMAN  number 36 dof 3 type d
+#DOFMAN  number 37 dof 3 type d
+#DOFMAN  number 38 dof 3 type d
+#DOFMAN  number 39 dof 3 type d
+#DOFMAN  number 40 dof 3 type d
+#DOFMAN  number 41 dof 3 type d
+#TIME
+#DOFMAN  number 2 dof 1 type d
+#DOFMAN  number 2 dof 2 type d
+#DOFMAN  number 2 dof 3 type d
+#REACTION number 1 dof 3
+#%END_CHECK%

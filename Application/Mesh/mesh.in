@@ -1,0 +1,84 @@
+# t3d -d 1. -p 8 -i mesh.in -o mesh.out
+# bottom vertices 1
+vertex 1 xyz 0 0 0
+vertex 2 xyz 5 0 0
+vertex 3 xyz 10 0 0
+vertex 4 xyz 0 0 5
+vertex 5 xyz 5 0 5
+vertex 6 xyz 10 0 5
+vertex 7 xyz 0 0 10
+vertex 8 xyz 5 0 10
+vertex 9 xyz 10 0 10
+#====================================
+#level 1 vertices
+vertex 10 xyz 0 5 0
+vertex 11 xyz 5 5 0
+vertex 12 xyz 10 5 0
+vertex 13 xyz 0 5 5
+vertex 14 xyz 5 5 5
+vertex 15 xyz 10 5 5
+vertex 16 xyz 0 5 10
+vertex 17 xyz 5 5 10
+vertex 18 xyz 10 5 10
+#====================================
+#level 2 vertices
+vertex 19 xyz 0 10 0
+vertex 20 xyz 5 10 0
+vertex 21 xyz 10 10 0
+vertex 22 xyz 0 10 5
+vertex 23 xyz 5 10 5
+vertex 24 xyz 10 10 5
+vertex 25 xyz 0 10 10
+vertex 26 xyz 5 10 10
+vertex 27 xyz 10 10 10
+#====================================
+
+# #====================================
+# #columns (y-direction)
+ curve 1 order 2 vertex 1 10
+ curve 2 order 2 vertex 2 11
+ curve 3 order 2 vertex 3 12
+ curve 4 order 2 vertex 4 13
+ curve 5 order 2 vertex 5 14
+ curve 6 order 2 vertex 6 15
+ curve 7 order 2 vertex 7 16
+ curve 8 order 2 vertex 8 17
+ curve 9 order 2 vertex 9 18
+ curve 10 order 2 vertex 10 19
+ curve 11 order 2 vertex 11 20
+ curve 12 order 2 vertex 12 21
+ curve 13 order 2 vertex 13 22
+ curve 14 order 2 vertex 14 23
+ curve 15 order 2 vertex 15 24
+ curve 16 order 2 vertex 16 25
+ curve 17 order 2 vertex 17 26
+ curve 18 order 2 vertex 18 27
+# #====================================
+#Beam x-direction
+curve 19 order 2 vertex 10 11
+curve 20 order 2 vertex 11 12
+curve 21 order 2 vertex 13 14
+curve 22 order 2 vertex 14 15
+curve 23 order 2 vertex 16 17
+curve 24 order 2 vertex 17 18
+curve 25 order 2 vertex 19 20
+curve 26 order 2 vertex 20 21
+curve 27 order 2 vertex 22 23
+curve 28 order 2 vertex 23 24
+curve 29 order 2 vertex 25 26
+curve 30 order 2 vertex 26 27
+#
+#Beam y-direction
+curve 31 order 2 vertex 10 13
+curve 32 order 2 vertex 13 16
+curve 33 order 2 vertex 11 14
+curve 34 order 2 vertex 14 17
+curve 35 order 2 vertex 12 15
+curve 36 order 2 vertex 15 18
+curve 37 order 2 vertex 19 22
+curve 38 order 2 vertex 22 25
+curve 39 order 2 vertex 20 23
+curve 40 order 2 vertex 23 26
+curve 41 order 2 vertex 21 24
+curve 42 order 2 vertex 24 27
+

@@ -1,0 +1,7 @@
+# t3d -d 1.6 -p 8 -i frame3D.in -o frame3D1.out
+# bottom vertices 1
+vertex 1 xyz 0 0 0
+vertex 2 xyz 12.94 0.386 0.0
+#====================================
+#vertical curves Y raound 1
+curve 1 order 2 vertex 1 2

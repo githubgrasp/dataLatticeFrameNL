@@ -1,0 +1,39 @@
+oofem.out
+Buckling of strut. 10 elements with t0 = 0.001
+NonlinearStatic nmsteps 1 nsteps 1 nmodules 1
+nsteps 1000 stiffmode 0 rtolf 1.e-3 maxiter 20000 initialguess 1 controlmode 1 manrmsteps 1
+vtkxml tstep_step 10 primvars 1 1 cellvars 8 138 139 140 47 46 45 141 52 domain_all element_all
+domain 3dLattice
+OutputManager tstep_step 1 dofman_all element_all
+ndofman 4 nelem 3 ncrosssect 2 nmat 2 nbc 2 nic 0 nltf 2 nset 1
+node 1 coords 3 0.000000 0.000000 0. bc 6 1 1 1 1 0 0
+node 2 coords 3 1.046962 0.025981 0.
+node 3 coords 3 2.093924 0.025981 0.
+node 4 coords 3 3.140886 0.000000 0. bc 6 2 1 1 0 0 0
+latticeframe3dnl 1 nodes 2 1 2 zaxis 3 0 0 1 crossSect 1 mat 1
+latticeframe3dnl 2 nodes 2 2 3 zaxis 3 0 0 1 crossSect 2 mat 2
+latticeframe3dnl 3 nodes 2 3 4 zaxis 3 0 0 1 crossSect 1 mat 1
+latticecs 1 material 1 iy 8.3e-6 iz 8.3e-6 ik 16.6e-6 shearCoeff 0.83 area 0.01
+latticecs 2 material 2 iy 8.3e-6 iz 8.3e-6 ik 16.6e-6 shearCoeff 0.83 area 0.01
+latticeframeelastic 1 d 7600. E 200e9 n 0.3 talpha 0
+latticeframesteelplastic 2 d 7600. E 200e9 n 0.3 talpha 0 nx0 2.e6 mx0 0.0889e6 my0 0.05e6 mz0 0.05e6 tol 1.e-6 iter 100 sub 10
+BoundaryCondition 1 loadTimeFunction 1 prescribedvalue 0.0
+BoundaryCondition 2 loadTimeFunction 2 prescribedvalue -1.
+ConstantFunction 1 f(t) 1 
+PiecewiseLinFunction 2 t 3 -1 200 1000 f(t) 3 0 0.01 2.
+Set 1 nodes 1 3
+#%BEGIN_CHECK% 
+#DOFMAN number 1 dof 6 type d
+#REACTION number 1 dof 1
+#TIME
+#DOFMAN number 1 dof 1 type d
+#DOFMAN number 2 dof 1 type d
+#DOFMAN number 3 dof 1 type d
+#DOFMAN number 4 dof 1 type d
+#DOFMAN number 1 dof 2 type d
+#DOFMAN number 2 dof 2 type d
+#DOFMAN number 3 dof 2 type d
+#DOFMAN number 4 dof 2 type d
+#%END_CHECK%
+
+

@@ -1,0 +1,21 @@
+set terminal postscript eps enhanced font "Helvetica" 12
+set output "figLd.eps"
+
+set terminal qt font "Helvetica" 20
+
+set key t l L
+
+E=200e9
+I=8.3e-6
+
+plot [0:1.8] [0:]\
+"10El0p001/ld.dat" u ($1):($2)/(E*I) title "10 elements" w l lt 1,\
+"10El0p03/ld.dat" u ($1):($2)/(E*I) notitle w l lt 1,\
+"10El0p1/ld.dat" u (($1)):($2)/(E*I) notitle  w l lt 1,\
+"20El0p001/ld.dat" u ($1):($2)/(E*I) title "20 elements" w l lt 2,\
+"20El0p03/ld.dat" u ($1):($2)/(E*I) notitle w l lt 2,\
+"20El0p1/ld.dat" u ($1):($2)/(E*I) notitle w l lt 2,\
+"40El0p001/ld.dat" u ($1):($2)/(E*I) title "40 elements" w l lt 3,\
+"40El0p03/ld.dat" u ($1):($2)/(E*I) notitle w l lt 3,\
+"40El0p1/ld.dat" u ($1):($2)/(E*I) notitle w l lt 3,\
+"Matlab/matlabPerfect.dat" u (($1)):($2) title "analytical" w p pt 1

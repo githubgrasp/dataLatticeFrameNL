@@ -1,0 +1,79 @@
+# t3d -d 800 -p 8 -i frame3D.in -o frame3D1.out
+# bottom vertices 1
+vertex 1 xyz 0 0 0
+vertex 2 xyz 5000 00 00
+vertex 3 xyz 10000 00 00
+vertex 4 xyz 00 00 4500
+vertex 5 xyz 10000 00 4500
+vertex 6 xyz 00 00 9000
+vertex 7 xyz 5000 00 9000
+vertex 8 xyz 10000 00 9000
+#====================================
+vertex 9 xyz 0 3600 0
+vertex 10 xyz 5000 3600 00
+vertex 11 xyz 10000 3600 00
+vertex 12 xyz 00 3600 4500
+vertex 13 xyz 5000 3600 4500
+vertex 14 xyz 10000 3600 4500
+vertex 15 xyz 00 3600 9000
+vertex 16 xyz 5000 3600 9000
+vertex 17 xyz 10000 3600 9000
+#====================================
+vertex 18 xyz 0 7200 0
+vertex 19 xyz 5000 7200 00
+vertex 20 xyz 10000 7200 00
+vertex 21 xyz 00 7200 4500
+vertex 22 xyz 5000 7200 4500
+vertex 23 xyz 10000 7200 4500
+vertex 24 xyz 00 7200 9000
+vertex 25 xyz 5000 7200 9000
+vertex 26 xyz 10000 7200 9000
+#====================================
+vertex 27 xyz 5000 00 4500
+#====================================
+#columns
+curve 1 order 2 vertex 1 9
+curve 2 order 2 vertex 2 10
+curve 3 order 2 vertex 3 11
+curve 4 order 2 vertex 4 12
+curve 5 order 2 vertex 5 14
+curve 6 order 2 vertex 6 15
+curve 7 order 2 vertex 7 16
+curve 8 order 2 vertex 8 17
+curve 9 order 2 vertex 9 18
+curve 10 order 2 vertex 10 19
+curve 11 order 2 vertex 11 20
+curve 12 order 2 vertex 12 21
+curve 13 order 2 vertex 13 22
+curve 14 order 2 vertex 14 23
+curve 15 order 2 vertex 15 24
+curve 16 order 2 vertex 16 25
+curve 17 order 2 vertex 17 26
+#====================================
+curve 18 order 2 vertex 9 10
+curve 19 order 2 vertex 10 11
+curve 20 order 2 vertex 12 13
+curve 21 order 2 vertex 13 14
+curve 22 order 2 vertex 15 16
+curve 23 order 2 vertex 16 17
+curve 24 order 2 vertex 18 19
+curve 25 order 2 vertex 19 20
+curve 26 order 2 vertex 21 22
+curve 27 order 2 vertex 22 23
+curve 28 order 2 vertex 24 25
+curve 29 order 2 vertex 25 26
+curve 30 order 2 vertex 9 12
+curve 31 order 2 vertex 12 15
+curve 32 order 2 vertex 10 13
+curve 33 order 2 vertex 13 16
+curve 34 order 2 vertex 11 14
+curve 35 order 2 vertex 14 17
+curve 36 order 2 vertex 18 21
+curve 37 order 2 vertex 21 24
+curve 38 order 2 vertex 19 22
+curve 39 order 2 vertex 22 25
+curve 40 order 2 vertex 20 23
+curve 41 order 2 vertex 23 26
+#====================================
+curve 42 order 2 vertex 27 13
+
