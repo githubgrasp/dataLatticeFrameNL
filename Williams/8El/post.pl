@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #Script to complete input file for OOFEM
 
-my $scale = 5;
+my $scale = 1;
 
 my $nNodes;
 
