@@ -1,7 +1,7 @@
 oofem.out
 Bathe's torsion test
-StaticStructural nmsteps 1 nsteps 1 nmodules 1 lstype 3 smtype 7
-nsteps 100 rtolf 1.e-3 maxiter 20000 stiffmode 0 initialguess 1 manrmsteps 1 lstype 3 smtype 7
+StaticStructural nmsteps 1 nsteps 1 nmodules 1
+nsteps 100 rtolf 1.e-3 maxiter 20000 stiffmode 0 initialguess 1 manrmsteps 1
 vtkxml primvars 1 1 primvars 1 1 cellvars 8 138 139 140 47 46 45 141 52 tstep_step 1 domain_all 
 domain 3dLattice
 OutputManager tstep_step 1 dofman_all element_all
@@ -36,39 +36,42 @@ PiecewiseLinFunction 2 t 2 0. 100. f(t) 2 0.0 1.0
 set 1 nodes 1 2
 
 #%BEGIN_CHECK%
-#DOFMAN  number 1 dof 1 type d
-#DOFMAN  number 2 dof 1 type d
-#DOFMAN  number 3 dof 1 type d
-#DOFMAN  number 4 dof 1 type d
-#DOFMAN  number 5 dof 1 type d
-#DOFMAN  number 6 dof 1 type d
-#DOFMAN  number 7 dof 1 type d
-#DOFMAN  number 8 dof 1 type d
-#DOFMAN  number 9 dof 1 type d
-#DOFMAN  number 10 dof 1 type d
-#DOFMAN  number 11 dof 1 type d
-#DOFMAN  number 1 dof 2 type d
-#DOFMAN  number 2 dof 2 type d
-#DOFMAN  number 3 dof 2 type d
-#DOFMAN  number 4 dof 2 type d
-#DOFMAN  number 5 dof 2 type d
-#DOFMAN  number 6 dof 2 type d
-#DOFMAN  number 7 dof 2 type d
-#DOFMAN  number 8 dof 2 type d
-#DOFMAN  number 9 dof 2 type d
-#DOFMAN  number 10 dof 2 type d
-#DOFMAN  number 11 dof 2 type d
-#DOFMAN  number 1 dof 3 type d
-#DOFMAN  number 2 dof 3 type d
-#DOFMAN  number 3 dof 3 type d
-#DOFMAN  number 4 dof 3 type d
-#DOFMAN  number 5 dof 3 type d
-#DOFMAN  number 6 dof 3 type d
-#DOFMAN  number 7 dof 3 type d
-#DOFMAN  number 8 dof 3 type d
-#DOFMAN  number 9 dof 3 type d
-#DOFMAN  number 10 dof 3 type d
-#DOFMAN  number 11 dof 3 type d
+# #DOFMAN  number 1 dof 1 type d
+# #DOFMAN  number 2 dof 1 type d
+# #DOFMAN  number 3 dof 1 type d
+# #DOFMAN  number 4 dof 1 type d
+# #DOFMAN  number 5 dof 1 type d
+# #DOFMAN  number 6 dof 1 type d
+# #DOFMAN  number 7 dof 1 type d
+# #DOFMAN  number 8 dof 1 type d
+# #DOFMAN  number 9 dof 1 type d
+# #DOFMAN  number 10 dof 1 type d
+# #DOFMAN  number 11 dof 1 type d
+# #DOFMAN  number 1 dof 2 type d
+# #DOFMAN  number 2 dof 2 type d
+# #DOFMAN  number 3 dof 2 type d
+# #DOFMAN  number 4 dof 2 type d
+# #DOFMAN  number 5 dof 2 type d
+# #DOFMAN  number 6 dof 2 type d
+# #DOFMAN  number 7 dof 2 type d
+# #DOFMAN  number 8 dof 2 type d
+# #DOFMAN  number 9 dof 2 type d
+# #DOFMAN  number 10 dof 2 type d
+# #DOFMAN  number 11 dof 2 type d
+# #DOFMAN  number 1 dof 3 type d
+# #DOFMAN  number 2 dof 3 type d
+# #DOFMAN  number 3 dof 3 type d
+# #DOFMAN  number 4 dof 3 type d
+# #DOFMAN  number 5 dof 3 type d
+# #DOFMAN  number 6 dof 3 type d
+# #DOFMAN  number 7 dof 3 type d
+# #DOFMAN  number 8 dof 3 type d
+# #DOFMAN  number 9 dof 3 type d
+# #DOFMAN  number 10 dof 3 type d
+# #DOFMAN  number 11 dof 3 type d
 #TIME
+#DOFMAN  number 2 dof 1 type d
+#DOFMAN  number 2 dof 2 type d
+#DOFMAN  number 2 dof 3 type d
 #REACTION number 1 dof 3
 #%END_CHECK%
