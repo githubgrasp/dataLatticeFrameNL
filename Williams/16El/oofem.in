@@ -81,4 +81,8 @@ PiecewiseLinFunction 2 t 2 -1 100 f(t) 2 0 0.8
 #DOFMAN number 15 dof 2 type d
 #DOFMAN number 16 dof 2 type d
 #DOFMAN number 17 dof 2 type d
+#DOFMAN number 2 dof 2 type d
+#DOFMAN number 1 dof 6 type d
+#REACTION number 1 dof 2
+#LOADLEVEL
 #%END_CHECK%

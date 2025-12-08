@@ -2,7 +2,7 @@ oofem.out
 3D Space frame. Strong columns weak beams. Steel
 NonlinearStatic nmsteps 2 nsteps 1 nmodules 1  profileopt 1
 nsteps 10 stiffmode 0 rtolf 1.e-5 maxiter 500 initialguess 0 controlmode 1 refloadmode 0
-nsteps 100 stiffmode 0 rtolf 1.e-3 maxiter 2000 initialguess 0 controlmode 0 psi 0. steplength 0.008 minsteplength 0.008 hpcmode 2 hpc 2 22 1 hpcw 1 1.
+nsteps 100 stiffmode 0 rtolf 1.e-4 maxiter 2000 initialguess 0 controlmode 0 psi 0. steplength 0.008 minsteplength 0.008 hpcmode 2 hpc 2 22 1 hpcw 1 1.
 vtkxmllattice tstep_step 1  primvars 1 1 cellvars 11 138 139 140 47 46 45 141 156 157 158 52 domain_all element_all cross 1
 domain 3dLattice
 OutputManager tstep_step 1 dofman_all element_all

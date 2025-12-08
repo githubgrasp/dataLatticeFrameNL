@@ -56,69 +56,69 @@ PiecewiseLinFunction 2 t 2 0. 100. f(t) 2 0. 1.
 set 1 nodes 1 2
 
 #%BEGIN_CHECK%
-# #DOFMAN  number 1 dof 1 type d
-# #DOFMAN  number 2 dof 1 type d
-# #DOFMAN  number 3 dof 1 type d
-# #DOFMAN  number 4 dof 1 type d
-# #DOFMAN  number 5 dof 1 type d
-# #DOFMAN  number 6 dof 1 type d
-# #DOFMAN  number 7 dof 1 type d
-# #DOFMAN  number 8 dof 1 type d
-# #DOFMAN  number 9 dof 1 type d
-# #DOFMAN  number 10 dof 1 type d
-# #DOFMAN  number 11 dof 1 type d
-# #DOFMAN  number 12 dof 1 type d
-# #DOFMAN  number 13 dof 1 type d
-# #DOFMAN  number 14 dof 1 type d
-# #DOFMAN  number 15 dof 1 type d
-# #DOFMAN  number 16 dof 1 type d
-# #DOFMAN  number 17 dof 1 type d
-# #DOFMAN  number 18 dof 1 type d
-# #DOFMAN  number 19 dof 1 type d
-# #DOFMAN  number 20 dof 1 type d
-# #DOFMAN  number 21 dof 1 type d
-# #DOFMAN  number 1 dof 2 type d
-# #DOFMAN  number 2 dof 2 type d
-# #DOFMAN  number 3 dof 2 type d
-# #DOFMAN  number 4 dof 2 type d
-# #DOFMAN  number 5 dof 2 type d
-# #DOFMAN  number 6 dof 2 type d
-# #DOFMAN  number 7 dof 2 type d
-# #DOFMAN  number 8 dof 2 type d
-# #DOFMAN  number 9 dof 2 type d
-# #DOFMAN  number 10 dof 2 type d
-# #DOFMAN  number 11 dof 2 type d
-# #DOFMAN  number 12 dof 2 type d
-# #DOFMAN  number 13 dof 2 type d
-# #DOFMAN  number 14 dof 2 type d
-# #DOFMAN  number 15 dof 2 type d
-# #DOFMAN  number 16 dof 2 type d
-# #DOFMAN  number 17 dof 2 type d
-# #DOFMAN  number 18 dof 2 type d
-# #DOFMAN  number 19 dof 2 type d
-# #DOFMAN  number 20 dof 2 type d
-# #DOFMAN  number 21 dof 2 type d
-# #DOFMAN  number 1 dof 3 type d
-# #DOFMAN  number 2 dof 3 type d
-# #DOFMAN  number 3 dof 3 type d
-# #DOFMAN  number 4 dof 3 type d
-# #DOFMAN  number 5 dof 3 type d
-# #DOFMAN  number 6 dof 3 type d
-# #DOFMAN  number 7 dof 3 type d
-# #DOFMAN  number 8 dof 3 type d
-# #DOFMAN  number 9 dof 3 type d
-# #DOFMAN  number 10 dof 3 type d
-# #DOFMAN  number 11 dof 3 type d
-# #DOFMAN  number 12 dof 3 type d
-# #DOFMAN  number 13 dof 3 type d
-# #DOFMAN  number 14 dof 3 type d
-# #DOFMAN  number 15 dof 3 type d
-# #DOFMAN  number 16 dof 3 type d
-# #DOFMAN  number 17 dof 3 type d
-# #DOFMAN  number 18 dof 3 type d
-# #DOFMAN  number 19 dof 3 type d
-# #DOFMAN  number 20 dof 3 type d
-# #DOFMAN  number 21 dof 3 type d
+#DOFMAN  number 1 dof 1 type d
+#DOFMAN  number 2 dof 1 type d
+#DOFMAN  number 3 dof 1 type d
+#DOFMAN  number 4 dof 1 type d
+#DOFMAN  number 5 dof 1 type d
+#DOFMAN  number 6 dof 1 type d
+#DOFMAN  number 7 dof 1 type d
+#DOFMAN  number 8 dof 1 type d
+#DOFMAN  number 9 dof 1 type d
+#DOFMAN  number 10 dof 1 type d
+#DOFMAN  number 11 dof 1 type d
+#DOFMAN  number 12 dof 1 type d
+#DOFMAN  number 13 dof 1 type d
+#DOFMAN  number 14 dof 1 type d
+#DOFMAN  number 15 dof 1 type d
+#DOFMAN  number 16 dof 1 type d
+#DOFMAN  number 17 dof 1 type d
+#DOFMAN  number 18 dof 1 type d
+#DOFMAN  number 19 dof 1 type d
+#DOFMAN  number 20 dof 1 type d
+#DOFMAN  number 21 dof 1 type d
+#DOFMAN  number 1 dof 2 type d
+#DOFMAN  number 2 dof 2 type d
+#DOFMAN  number 3 dof 2 type d
+#DOFMAN  number 4 dof 2 type d
+#DOFMAN  number 5 dof 2 type d
+#DOFMAN  number 6 dof 2 type d
+#DOFMAN  number 7 dof 2 type d
+#DOFMAN  number 8 dof 2 type d
+#DOFMAN  number 9 dof 2 type d
+#DOFMAN  number 10 dof 2 type d
+#DOFMAN  number 11 dof 2 type d
+#DOFMAN  number 12 dof 2 type d
+#DOFMAN  number 13 dof 2 type d
+#DOFMAN  number 14 dof 2 type d
+#DOFMAN  number 15 dof 2 type d
+#DOFMAN  number 16 dof 2 type d
+#DOFMAN  number 17 dof 2 type d
+#DOFMAN  number 18 dof 2 type d
+#DOFMAN  number 19 dof 2 type d
+#DOFMAN  number 20 dof 2 type d
+#DOFMAN  number 21 dof 2 type d
+#DOFMAN  number 1 dof 3 type d
+#DOFMAN  number 2 dof 3 type d
+#DOFMAN  number 3 dof 3 type d
+#DOFMAN  number 4 dof 3 type d
+#DOFMAN  number 5 dof 3 type d
+#DOFMAN  number 6 dof 3 type d
+#DOFMAN  number 7 dof 3 type d
+#DOFMAN  number 8 dof 3 type d
+#DOFMAN  number 9 dof 3 type d
+#DOFMAN  number 10 dof 3 type d
+#DOFMAN  number 11 dof 3 type d
+#DOFMAN  number 12 dof 3 type d
+#DOFMAN  number 13 dof 3 type d
+#DOFMAN  number 14 dof 3 type d
+#DOFMAN  number 15 dof 3 type d
+#DOFMAN  number 16 dof 3 type d
+#DOFMAN  number 17 dof 3 type d
+#DOFMAN  number 18 dof 3 type d
+#DOFMAN  number 19 dof 3 type d
+#DOFMAN  number 20 dof 3 type d
+#DOFMAN  number 21 dof 3 type d
 #TIME
 #DOFMAN  number 2 dof 1 type d
 #DOFMAN  number 2 dof 2 type d

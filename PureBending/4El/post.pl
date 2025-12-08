@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-#Script to write output for pure bending
+#Script to complete input file for OOFEM
 
 my $nNodes;
 
