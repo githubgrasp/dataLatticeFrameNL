@@ -9,7 +9,7 @@ ndofman 2 nelem 1 ncrosssect 1 nmat 1 nbc 4 nic 0 nltf 2
 node 1 coords 3 0.000000e+00 0.000000e+00 0.000000e+00 bc 6 1 1 1 1 1 1
 node 2 coords 3 1.000000e+00 0.000000e+00 0.000000e+00 bc 6 2 1 1 1 1 1
 #
-latticeframe3dnl 1 nodes 2 1 2 zaxis 3 0 0 1 crossSect 1 mat 1 
+lattice3dnl 1 nodes 2 1 2 zaxis 3 0 0 1 crossSect 1 mat 1 
 #
 latticecs 1 material 1 iy 7.857e-9 iz 7.857e-9 ik 1.6e-8 shearCoeff 0.83 area 3.1416e-4
 latticeframeelastic 1 d 1. E 2.1e11 n 0.3 talpha 0 

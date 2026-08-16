@@ -202,216 +202,216 @@ node 192 coords 3 1.000000e+01 1.000000e+01 6.000000e+00 load 1 2
 node 193 coords 3 1.000000e+01 1.000000e+01 7.000000e+00 load 1 2
 node 194 coords 3 1.000000e+01 1.000000e+01 8.000000e+00 load 1 2
 node 195 coords 3 1.000000e+01 1.000000e+01 9.000000e+00 load 1 2
-latticeframe3dnl 1 nodes 2 1 28 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 2 nodes 2 28 29 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 3 nodes 2 29 30 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 4 nodes 2 30 31 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 5 nodes 2 31 10 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 6 nodes 2 2 32 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 7 nodes 2 32 33 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 8 nodes 2 33 34 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 9 nodes 2 34 35 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 10 nodes 2 35 11 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 11 nodes 2 3 36 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 12 nodes 2 36 37 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 13 nodes 2 37 38 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 14 nodes 2 38 39 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 15 nodes 2 39 12 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 16 nodes 2 4 40 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 17 nodes 2 40 41 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 18 nodes 2 41 42 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 19 nodes 2 42 43 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 20 nodes 2 43 13 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 21 nodes 2 5 44 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 22 nodes 2 44 45 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 23 nodes 2 45 46 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 24 nodes 2 46 47 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 25 nodes 2 47 14 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 26 nodes 2 6 48 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 27 nodes 2 48 49 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 28 nodes 2 49 50 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 29 nodes 2 50 51 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 30 nodes 2 51 15 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 31 nodes 2 7 52 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 32 nodes 2 52 53 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 33 nodes 2 53 54 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 34 nodes 2 54 55 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 35 nodes 2 55 16 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 36 nodes 2 8 56 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 37 nodes 2 56 57 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 38 nodes 2 57 58 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 39 nodes 2 58 59 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 40 nodes 2 59 17 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 41 nodes 2 9 60 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
-latticeframe3dnl 42 nodes 2 60 61 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 43 nodes 2 61 62 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 44 nodes 2 62 63 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 45 nodes 2 63 18 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 46 nodes 2 10 64 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 47 nodes 2 64 65 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 48 nodes 2 65 66 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 49 nodes 2 66 67 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 50 nodes 2 67 19 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 51 nodes 2 11 68 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 52 nodes 2 68 69 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 53 nodes 2 69 70 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 54 nodes 2 70 71 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 55 nodes 2 71 20 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 56 nodes 2 12 72 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 57 nodes 2 72 73 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 58 nodes 2 73 74 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 59 nodes 2 74 75 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 60 nodes 2 75 21 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 61 nodes 2 13 76 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 62 nodes 2 76 77 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 63 nodes 2 77 78 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 64 nodes 2 78 79 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 65 nodes 2 79 22 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 66 nodes 2 14 80 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 67 nodes 2 80 81 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 68 nodes 2 81 82 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 69 nodes 2 82 83 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 70 nodes 2 83 23 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 71 nodes 2 15 84 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 72 nodes 2 84 85 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 73 nodes 2 85 86 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 74 nodes 2 86 87 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 75 nodes 2 87 24 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 76 nodes 2 16 88 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 77 nodes 2 88 89 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 78 nodes 2 89 90 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 79 nodes 2 90 91 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 80 nodes 2 91 25 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 81 nodes 2 17 92 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 82 nodes 2 92 93 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 83 nodes 2 93 94 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 84 nodes 2 94 95 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 85 nodes 2 95 26 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 86 nodes 2 18 96 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 87 nodes 2 96 97 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 88 nodes 2 97 98 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 89 nodes 2 98 99 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 90 nodes 2 99 27 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 91 nodes 2 10 100 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 92 nodes 2 100 101 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 93 nodes 2 101 102 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 94 nodes 2 102 103 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 95 nodes 2 103 11 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 96 nodes 2 11 104 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 97 nodes 2 104 105 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 98 nodes 2 105 106 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 99 nodes 2 106 107 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 100 nodes 2 107 12 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 101 nodes 2 13 108 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 102 nodes 2 108 109 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 103 nodes 2 109 110 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 104 nodes 2 110 111 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 105 nodes 2 111 14 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 106 nodes 2 14 112 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 107 nodes 2 112 113 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 108 nodes 2 113 114 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 109 nodes 2 114 115 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 110 nodes 2 115 15 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 111 nodes 2 16 116 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 112 nodes 2 116 117 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 113 nodes 2 117 118 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 114 nodes 2 118 119 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 115 nodes 2 119 17 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 116 nodes 2 17 120 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 117 nodes 2 120 121 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 118 nodes 2 121 122 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 119 nodes 2 122 123 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 120 nodes 2 123 18 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 121 nodes 2 19 124 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 122 nodes 2 124 125 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 123 nodes 2 125 126 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 124 nodes 2 126 127 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 125 nodes 2 127 20 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 126 nodes 2 20 128 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 127 nodes 2 128 129 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 128 nodes 2 129 130 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 129 nodes 2 130 131 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 130 nodes 2 131 21 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 131 nodes 2 22 132 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 132 nodes 2 132 133 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 133 nodes 2 133 134 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 134 nodes 2 134 135 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 135 nodes 2 135 23 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 136 nodes 2 23 136 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 137 nodes 2 136 137 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 138 nodes 2 137 138 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 139 nodes 2 138 139 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 140 nodes 2 139 24 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 141 nodes 2 25 140 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 142 nodes 2 140 141 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 143 nodes 2 141 142 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 144 nodes 2 142 143 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 145 nodes 2 143 26 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 146 nodes 2 26 144 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
-latticeframe3dnl 147 nodes 2 144 145 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 148 nodes 2 145 146 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 149 nodes 2 146 147 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 150 nodes 2 147 27 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
-latticeframe3dnl 151 nodes 2 10 148 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 152 nodes 2 148 149 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 153 nodes 2 149 150 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 154 nodes 2 150 151 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 155 nodes 2 151 13 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 156 nodes 2 13 152 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 157 nodes 2 152 153 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 158 nodes 2 153 154 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 159 nodes 2 154 155 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 160 nodes 2 155 16 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 161 nodes 2 11 156 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 162 nodes 2 156 157 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 163 nodes 2 157 158 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 164 nodes 2 158 159 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 165 nodes 2 159 14 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 166 nodes 2 14 160 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 167 nodes 2 160 161 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 168 nodes 2 161 162 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 169 nodes 2 162 163 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 170 nodes 2 163 17 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 171 nodes 2 12 164 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 172 nodes 2 164 165 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 173 nodes 2 165 166 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 174 nodes 2 166 167 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 175 nodes 2 167 15 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 176 nodes 2 15 168 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 177 nodes 2 168 169 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 178 nodes 2 169 170 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 179 nodes 2 170 171 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 180 nodes 2 171 18 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 181 nodes 2 19 172 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 182 nodes 2 172 173 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 183 nodes 2 173 174 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 184 nodes 2 174 175 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 185 nodes 2 175 22 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 186 nodes 2 22 176 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 187 nodes 2 176 177 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 188 nodes 2 177 178 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 189 nodes 2 178 179 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 190 nodes 2 179 25 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 191 nodes 2 20 180 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 192 nodes 2 180 181 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 193 nodes 2 181 182 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 194 nodes 2 182 183 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 195 nodes 2 183 23 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 196 nodes 2 23 184 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 197 nodes 2 184 185 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 198 nodes 2 185 186 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 199 nodes 2 186 187 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 200 nodes 2 187 26 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 201 nodes 2 21 188 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 202 nodes 2 188 189 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 203 nodes 2 189 190 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 204 nodes 2 190 191 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 205 nodes 2 191 24 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 206 nodes 2 24 192 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 207 nodes 2 192 193 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 208 nodes 2 193 194 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 209 nodes 2 194 195 zaxis 3 0 -1 0 crossSect 1 mat 1
-latticeframe3dnl 210 nodes 2 195 27 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 1 nodes 2 1 28 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 2 nodes 2 28 29 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 3 nodes 2 29 30 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 4 nodes 2 30 31 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 5 nodes 2 31 10 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 6 nodes 2 2 32 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 7 nodes 2 32 33 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 8 nodes 2 33 34 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 9 nodes 2 34 35 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 10 nodes 2 35 11 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 11 nodes 2 3 36 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 12 nodes 2 36 37 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 13 nodes 2 37 38 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 14 nodes 2 38 39 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 15 nodes 2 39 12 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 16 nodes 2 4 40 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 17 nodes 2 40 41 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 18 nodes 2 41 42 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 19 nodes 2 42 43 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 20 nodes 2 43 13 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 21 nodes 2 5 44 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 22 nodes 2 44 45 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 23 nodes 2 45 46 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 24 nodes 2 46 47 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 25 nodes 2 47 14 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 26 nodes 2 6 48 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 27 nodes 2 48 49 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 28 nodes 2 49 50 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 29 nodes 2 50 51 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 30 nodes 2 51 15 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 31 nodes 2 7 52 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 32 nodes 2 52 53 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 33 nodes 2 53 54 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 34 nodes 2 54 55 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 35 nodes 2 55 16 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 36 nodes 2 8 56 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 37 nodes 2 56 57 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 38 nodes 2 57 58 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 39 nodes 2 58 59 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 40 nodes 2 59 17 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 41 nodes 2 9 60 zaxis 3 0 0 1 crossSect 2 mat 2 s -1
+lattice3dnl 42 nodes 2 60 61 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 43 nodes 2 61 62 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 44 nodes 2 62 63 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 45 nodes 2 63 18 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 46 nodes 2 10 64 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 47 nodes 2 64 65 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 48 nodes 2 65 66 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 49 nodes 2 66 67 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 50 nodes 2 67 19 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 51 nodes 2 11 68 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 52 nodes 2 68 69 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 53 nodes 2 69 70 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 54 nodes 2 70 71 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 55 nodes 2 71 20 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 56 nodes 2 12 72 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 57 nodes 2 72 73 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 58 nodes 2 73 74 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 59 nodes 2 74 75 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 60 nodes 2 75 21 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 61 nodes 2 13 76 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 62 nodes 2 76 77 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 63 nodes 2 77 78 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 64 nodes 2 78 79 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 65 nodes 2 79 22 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 66 nodes 2 14 80 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 67 nodes 2 80 81 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 68 nodes 2 81 82 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 69 nodes 2 82 83 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 70 nodes 2 83 23 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 71 nodes 2 15 84 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 72 nodes 2 84 85 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 73 nodes 2 85 86 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 74 nodes 2 86 87 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 75 nodes 2 87 24 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 76 nodes 2 16 88 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 77 nodes 2 88 89 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 78 nodes 2 89 90 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 79 nodes 2 90 91 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 80 nodes 2 91 25 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 81 nodes 2 17 92 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 82 nodes 2 92 93 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 83 nodes 2 93 94 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 84 nodes 2 94 95 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 85 nodes 2 95 26 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 86 nodes 2 18 96 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 87 nodes 2 96 97 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 88 nodes 2 97 98 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 89 nodes 2 98 99 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 90 nodes 2 99 27 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 91 nodes 2 10 100 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 92 nodes 2 100 101 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 93 nodes 2 101 102 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 94 nodes 2 102 103 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 95 nodes 2 103 11 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 96 nodes 2 11 104 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 97 nodes 2 104 105 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 98 nodes 2 105 106 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 99 nodes 2 106 107 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 100 nodes 2 107 12 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 101 nodes 2 13 108 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 102 nodes 2 108 109 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 103 nodes 2 109 110 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 104 nodes 2 110 111 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 105 nodes 2 111 14 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 106 nodes 2 14 112 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 107 nodes 2 112 113 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 108 nodes 2 113 114 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 109 nodes 2 114 115 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 110 nodes 2 115 15 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 111 nodes 2 16 116 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 112 nodes 2 116 117 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 113 nodes 2 117 118 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 114 nodes 2 118 119 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 115 nodes 2 119 17 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 116 nodes 2 17 120 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 117 nodes 2 120 121 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 118 nodes 2 121 122 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 119 nodes 2 122 123 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 120 nodes 2 123 18 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 121 nodes 2 19 124 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 122 nodes 2 124 125 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 123 nodes 2 125 126 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 124 nodes 2 126 127 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 125 nodes 2 127 20 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 126 nodes 2 20 128 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 127 nodes 2 128 129 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 128 nodes 2 129 130 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 129 nodes 2 130 131 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 130 nodes 2 131 21 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 131 nodes 2 22 132 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 132 nodes 2 132 133 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 133 nodes 2 133 134 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 134 nodes 2 134 135 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 135 nodes 2 135 23 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 136 nodes 2 23 136 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 137 nodes 2 136 137 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 138 nodes 2 137 138 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 139 nodes 2 138 139 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 140 nodes 2 139 24 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 141 nodes 2 25 140 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 142 nodes 2 140 141 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 143 nodes 2 141 142 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 144 nodes 2 142 143 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 145 nodes 2 143 26 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 146 nodes 2 26 144 zaxis 3 0 -1 0 crossSect 1 mat 1 s -1
+lattice3dnl 147 nodes 2 144 145 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 148 nodes 2 145 146 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 149 nodes 2 146 147 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 150 nodes 2 147 27 zaxis 3 0 -1 0 crossSect 1 mat 1 s 1
+lattice3dnl 151 nodes 2 10 148 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 152 nodes 2 148 149 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 153 nodes 2 149 150 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 154 nodes 2 150 151 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 155 nodes 2 151 13 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 156 nodes 2 13 152 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 157 nodes 2 152 153 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 158 nodes 2 153 154 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 159 nodes 2 154 155 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 160 nodes 2 155 16 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 161 nodes 2 11 156 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 162 nodes 2 156 157 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 163 nodes 2 157 158 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 164 nodes 2 158 159 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 165 nodes 2 159 14 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 166 nodes 2 14 160 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 167 nodes 2 160 161 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 168 nodes 2 161 162 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 169 nodes 2 162 163 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 170 nodes 2 163 17 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 171 nodes 2 12 164 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 172 nodes 2 164 165 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 173 nodes 2 165 166 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 174 nodes 2 166 167 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 175 nodes 2 167 15 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 176 nodes 2 15 168 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 177 nodes 2 168 169 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 178 nodes 2 169 170 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 179 nodes 2 170 171 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 180 nodes 2 171 18 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 181 nodes 2 19 172 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 182 nodes 2 172 173 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 183 nodes 2 173 174 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 184 nodes 2 174 175 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 185 nodes 2 175 22 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 186 nodes 2 22 176 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 187 nodes 2 176 177 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 188 nodes 2 177 178 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 189 nodes 2 178 179 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 190 nodes 2 179 25 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 191 nodes 2 20 180 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 192 nodes 2 180 181 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 193 nodes 2 181 182 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 194 nodes 2 182 183 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 195 nodes 2 183 23 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 196 nodes 2 23 184 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 197 nodes 2 184 185 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 198 nodes 2 185 186 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 199 nodes 2 186 187 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 200 nodes 2 187 26 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 201 nodes 2 21 188 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 202 nodes 2 188 189 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 203 nodes 2 189 190 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 204 nodes 2 190 191 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 205 nodes 2 191 24 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 206 nodes 2 24 192 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 207 nodes 2 192 193 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 208 nodes 2 193 194 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 209 nodes 2 194 195 zaxis 3 0 -1 0 crossSect 1 mat 1
+lattice3dnl 210 nodes 2 195 27 zaxis 3 0 -1 0 crossSect 1 mat 1
 #beams y-strong axis
 latticecs 1 material 1 iy 15000.e-8 iz 15000e-8 ik 30000.e-8 shearCoeff 0.833 area 100.e-2 
 #columns

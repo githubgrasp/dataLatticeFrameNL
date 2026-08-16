@@ -28,27 +28,27 @@ node 19 coords 3 2.686108 0.043388 0.
 node 20 coords 3 2.835336 0.029476 0.
 node 21 coords 3 2.984564 0.014904 0.
 node 22 coords 3 3.133792 0.000000 0. bc 6 2 1 1 0 0 0
-latticeframe3dnl 1 nodes 2 1 2 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 2 nodes 2 2 3 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 3 nodes 2 3 4 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 4 nodes 2 4 5 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 5 nodes 2 5 6 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 6 nodes 2 6 7 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 7 nodes 2 7 8 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 8 nodes 2 8 9 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 9 nodes 2 9 10 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 10 nodes 2 10 11 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 11 nodes 2 11 12 zaxis 3 0 0 1 crossSect 2 mat 2
-latticeframe3dnl 12 nodes 2 12 13 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 13 nodes 2 13 14 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 14 nodes 2 14 15 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 15 nodes 2 15 16 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 16 nodes 2 16 17 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 17 nodes 2 17 18 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 18 nodes 2 18 19 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 19 nodes 2 19 20 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 20 nodes 2 20 21 zaxis 3 0 0 1 crossSect 1 mat 1
-latticeframe3dnl 21 nodes 2 21 22 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 1 nodes 2 1 2 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 2 nodes 2 2 3 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 3 nodes 2 3 4 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 4 nodes 2 4 5 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 5 nodes 2 5 6 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 6 nodes 2 6 7 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 7 nodes 2 7 8 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 8 nodes 2 8 9 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 9 nodes 2 9 10 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 10 nodes 2 10 11 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 11 nodes 2 11 12 zaxis 3 0 0 1 crossSect 2 mat 2
+lattice3dnl 12 nodes 2 12 13 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 13 nodes 2 13 14 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 14 nodes 2 14 15 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 15 nodes 2 15 16 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 16 nodes 2 16 17 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 17 nodes 2 17 18 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 18 nodes 2 18 19 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 19 nodes 2 19 20 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 20 nodes 2 20 21 zaxis 3 0 0 1 crossSect 1 mat 1
+lattice3dnl 21 nodes 2 21 22 zaxis 3 0 0 1 crossSect 1 mat 1
 latticecs 1 material 1 iy 8.3e-6 iz 8.3e-6 ik 16.6e-6 shearCoeff 0.083 area 0.01
 latticecs 2 material 2 iy 8.3e-6 iz 8.3e-6 ik 16.6e-6 shearCoeff 0.83 area 0.01
 latticeframeelastic 1 d 7600. E 200e9 n 0.3 talpha 0
